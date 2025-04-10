@@ -1,9 +1,3 @@
-<style>
-  .site-title, .site-description {
-    display: none;
-  }
-</style>
-
 # Sohan's Space
 
 *Coming soon-ish !*
