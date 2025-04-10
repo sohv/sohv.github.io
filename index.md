@@ -1,5 +1,5 @@
-# Welcome to Sohan's homepage
+# Sohan's Space
 
-Hi! I'm Sohan. This is where I share updates about my life and projects.
+*Coming soon-ish !*
 
-👉 [Check out my blog](./blog) for thoughts, updates, and experiments!
+👉 [Check out my blog](https://sohv.github.io/blog/) for thoughts, updates, and experiments!
