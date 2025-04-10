@@ -11,7 +11,3 @@ title: Sohan's Space
   <a href="/projects/" class="button-link">📁 Projects</a>
   <a href="about.md" class="button-link">👤 About</a>
 </div>
-
-<div class="content-section">
-  <p>Welcome to my personal website. Here you'll find my thoughts, projects, and more!</p>
-</div>
