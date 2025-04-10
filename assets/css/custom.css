@@ -32,6 +32,75 @@
   margin-bottom: 1.5rem;
 }
 
+/* About page styling */
+.about-container {
+  margin-top: 1rem;
+}
+
+/* Profile introduction styling */
+.intro-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* List styling */
+.about-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.about-list li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.about-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #1f2937;
+}
+
+/* Connect section styling */
+.connect-section {
+  margin-top: 1.5rem;
+}
+
+.connect-links a {
+  display: inline-block;
+  margin-right: 1rem;
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.connect-links a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+/* Button styling for links (if you want to use them) */
+.profile-link {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 8px 16px;
+  margin: 0.25rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.profile-link:hover {
+  background-color: #111827;
+}
+
 .content-section {
   margin-top: 2rem;
 }
