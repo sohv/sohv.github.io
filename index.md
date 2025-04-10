@@ -30,7 +30,7 @@ title: Sohan's Space
 </div>
 
 <div class="button-container">
-  <p><strong>Visit:</strong></p>
+  <strong>Visit:</strong>
   <div>
     <a href="https://sohv.github.io/blog/" class="button-link">📝 Blog</a>
     <a href="/projects/" class="button-link">📁 Projects</a>
