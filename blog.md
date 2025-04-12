@@ -5,7 +5,7 @@ permalink: /blog/
 ---
 
 <h1 class="main-heading">Blog</h1>
-<p class="subtitle">All the blog pages in one place.</p>
+<p class="subtitle">A collection of my musings and learnings.</p>
 
 <div class="blog-container">
   <div class="tag-filters">
