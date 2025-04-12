@@ -7,14 +7,14 @@ title: Sohan's Space
 <!-- <p class="subtitle">Coming soon-ish!</p> -->
 
 <div class="about-container">
-  <p class="intro-text">Hello, I'm Sohan 👋<br>
+  <p class="intro-text">Hey there, I'm Sohan 👋<br>
   I build things with AI and sometimes write about them.</p>
   
 <div class="about-section">
   <ul class="about-list">
     <li>Based in: Bangalore</li>
     <li>Interests: code, AI, sports, whatever feels fun</li>
-    <li>Currently: Studying CSE at MIT (Not Massachusetts, Manipal 😊)</li>
+    <li>Currently: Studying CSE at MIT (Not Massachusetts, Manipal 🙃)</li>
     <li>Learning: Reinforcement learning and LLM optimization</li>
     <li>Goal: Building AI systems that are safe, responsible and generalizable</li>
     <li>Projects: Training an RL agent to trade, experimenting with document retrieval using knowledge graphs.</li>
