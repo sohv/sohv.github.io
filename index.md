@@ -43,13 +43,17 @@ title: Sohan's Space
 <div class="updates-section">
   <h2>Updates</h2>
   <div class="updates-container">
+  <!-- Copy from here -->
     <div class="update-card">
       <span class="update-date">12 Apr 2024</span>
       <div class="update-content">
-        <h3>🚀 Site Launch</h3>
-        <p>Welcome to my new website! Here you'll find my thoughts on AI, project updates, and technical tutorials.</p>
+        <h3><i>Blog page - Work in Progress</i></h3>
+        <p>The two blogs you see in Blog section are just templates, not actual posts. Stay tuned for my first blog.</p>
       </div>
     </div>
+  <!-- stop here -->
+
+  <!-- another update
     <div class="update-card">
       <span class="update-date">10 Apr 2024</span>
       <div class="update-content">
@@ -57,5 +61,6 @@ title: Sohan's Space
         <p>Starting a new series on LLM optimization techniques, stay tuned!</p>
       </div>
     </div>
+  <!-- stop here -->
   </div>
 </div>
