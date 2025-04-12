@@ -104,3 +104,15 @@
 .content-section {
   margin-top: 2rem;
 }
+
+.about-section {
+  display: flex;
+  align-items: flex-start; 
+  gap: 2rem; 
+}
+
+.about-image {
+  width: 120px;
+  height: auto;
+  border-radius: 8px; 
+}
