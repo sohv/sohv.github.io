@@ -10,15 +10,18 @@ title: Sohan's Space
   <p class="intro-text">Hello, I'm Sohan 👋<br>
   I build things with AI and sometimes write about them.</p>
   
+<div class="about-section">
   <ul class="about-list">
     <li>Based in: Bangalore</li>
     <li>Interests: code, AI, sports, whatever feels fun</li>
     <li>Currently: Studying CSE at MIT (Not Massachusetts, Manipal 😊)</li>
     <li>Learning: Reinforcement learning and LLM optimization</li>
-    <li>Dream: Building AI systems that are safe, responsible and generalizable</li>
-    <li>Projects: Go <a href="/projects/">here</a></li>
+    <li>Goal: Building AI systems that are safe, responsible and generalizable</li>
+    <li>Projects: Training an RL agent to trade, experimenting with document retrieval using knowledge graphs.</li>
     <li>Little Secret: My GPU and I are in a committed relationship.</li>
   </ul>
+  <img src="/assets/images/your-image.png" alt="Sohan's photo" class="about-image">
+</div>
   
   <div class="connect-section">
     <strong>Connect:</strong>
