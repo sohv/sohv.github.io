@@ -15,8 +15,8 @@ permalink: /projects/
       </svg>
     </div>
     <div class="project-content">
-      <h3 class="project-title">RL Trading Agent</h3>
-      <p class="project-description">An RL agent trained to trade in Sensex Index using Proximal Policy Optimization (PPO), while demonstrating effective trade execution by achieving an annualized return 9%.</p>
+      <h3 class="project-title">RL Trading Agent *</h3>
+      <p class="project-description">An RL agent trained to trade in Sensex Index using Proximal Policy Optimization (PPO), while demonstrating effective trade execution.</p>
     </div>
   </a>
 
@@ -80,6 +80,6 @@ permalink: /projects/
     </div>
   </a>
 
-
-
 </div>
+
+<p class="note">* indicates ongoing projects</p>
