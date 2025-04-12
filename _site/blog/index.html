@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Blog | Sohan’s Space</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Blog" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Chronicling my life, one project at a time." />
+<meta property="og:description" content="Chronicling my life, one project at a time." />
+<link rel="canonical" href="http://localhost:4000/blog/" />
+<meta property="og:url" content="http://localhost:4000/blog/" />
+<meta property="og:site_name" content="Sohan’s Space" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Blog" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Chronicling my life, one project at a time.","headline":"Blog","url":"http://localhost:4000/blog/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=02b51bb1e5f4575e7701aadf02c3adcae650ed14">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1 class="main-heading">Blog</h1>
+<p class="subtitle">All the blog pages in order</p>
+
+<div class="blog-container">
+  <div class="tag-filters">
+    <button class="tag-button active" data-tag="all">All</button>
+    <button class="tag-button" data-tag="paper">Paper</button>
+    <button class="tag-button" data-tag="tutorial">Tutorial</button>
+    <button class="tag-button" data-tag="project">Project</button>
+    <button class="tag-button" data-tag="opinion">Opinion</button>
+  </div>
+
+  <div class="blog-list">
+    
+    <a href="/2024/01/02/qlora-tutorial.html" class="blog-card">
+      <div class="blog-thumbnail">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
+          
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+          
+        </svg>
+      </div>
+      <div class="blog-content">
+        <h3 class="blog-title">Implementing QLoRA: A Step-by-Step Guide to Efficient Fine-tuning</h3>
+        <div class="blog-tags">
+          
+          <span class="blog-tag">tutorial</span>
+          
+          <span class="blog-tag">project</span>
+          
+        </div>
+      </div>
+    </a>
+    
+    <a href="/2024/01/01/llama2-paper-review.html" class="blog-card">
+      <div class="blog-thumbnail">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="32" height="32">
+          
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          
+        </svg>
+      </div>
+      <div class="blog-content">
+        <h3 class="blog-title">Understanding Llama 2: A Deep Dive into Meta's Latest LLM</h3>
+        <div class="blog-tags">
+          
+          <span class="blog-tag">paper</span>
+          
+          <span class="blog-tag">opinion</span>
+          
+        </div>
+      </div>
+    </a>
+    
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const tagButtons = document.querySelectorAll('.tag-button');
+  const blogCards = document.querySelectorAll('.blog-card');
+
+  tagButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      tagButtons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+
+      const selectedTag = button.getAttribute('data-tag');
+      
+      blogCards.forEach(card => {
+        if (selectedTag === 'all') {
+          card.style.display = 'flex';
+        } else {
+          const cardTags = Array.from(card.querySelectorAll('.blog-tag'))
+            .map(tag => tag.textContent.toLowerCase());
+          card.style.display = cardTags.includes(selectedTag) ? 'flex' : 'none';
+        }
+      });
+    });
+  });
+});
+</script>
+
+
+
+      </section>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>
