@@ -24,24 +24,24 @@ title: Sohan's Space
 </div>
   
   <div class="connect-section">
-    <strong>Connect:</strong>
+    <strong>Connect</strong>
     <div class="connect-links">
-      <a href="https://www.linkedin.com/in/sohan-venkatesh/" class="profile-link">LinkedIn</a>
-      <a href="https://github.com/sohv" class="profile-link">GitHub</a>
+      <a href="https://www.linkedin.com/in/sohan-venkatesh/" class="profile-link">👔 LinkedIn</a>
+      <a href="https://github.com/sohv" class="profile-link">👨‍💻 GitHub</a>
     </div>
   </div>
 </div>
 
 <div class="button-container">
-  <strong>Visit:</strong>
-  <div>
+  <strong>Visit</strong>
+  <div class="button-links">
     <a href="/blog/" class="button-link">📝 Blog</a>
     <a href="/projects/" class="button-link">📁 Projects</a>
   </div>
 </div>
 
 <div class="updates-section">
-  <h2>Latest Updates</h2>
+  <h2>Updates</h2>
   <div class="updates-container">
     <div class="update-card">
       <span class="update-date">12 Apr 2024</span>

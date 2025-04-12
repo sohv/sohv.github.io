@@ -1,6 +1,6 @@
 .button-container {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 .button-link {
@@ -18,7 +18,60 @@
 }
 
 .button-link:hover {
-  background-color: #111827; /* darker gray */
+  background-color: #111827;
+}
+
+.button-links {
+  display: inline-block;
+}
+
+.button-links a {
+  margin-right: 0.5rem;
+  background-color: #1f2937;
+  color: #fff !important;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.button-links a:hover {
+  color: #111827;
+}
+
+.connect-section {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.connect-links a {
+  background-color: #1f2937;
+  color: #fff !important;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 0.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.connect-links a:hover {
+  color: #111827;
+}
+
+.profile-link {
+  background-color: #1f2937;
+  color: #fff;
+  padding: 8px 16px;
+  margin: 0.25rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.profile-link:hover {
+  background-color: #111827;
 }
 
 .main-heading {
@@ -48,7 +101,7 @@
 .about-list {
   list-style-type: none;
   padding-left: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem; /* change this if needed */
 }
 
 .about-list li {
@@ -62,42 +115,6 @@
   position: absolute;
   left: 0;
   color: #1f2937;
-}
-
-.connect-section {
-  margin-top: 1rem;
-}
-
-.connect-links a {
-  color: #ffffff !important;
-  text-decoration: none;
-  display: inline-block;
-  margin-right: 1rem;
-  transition: color 0.2s ease;
-}
-
-.connect-links a:hover {
-  color: #e6e6e6;
-  text-decoration: underline;
-}
-
-/* Button styling for links (if you want to use them) */
-.profile-link {
-  background-color: #1f2937;
-  color: #fff;
-  padding: 8px 16px;
-  margin: 0.25rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 14px;
-  display: inline-block;
-  transition: background-color 0.2s ease;
-}
-
-.profile-link:hover {
-  background-color: #111827;
 }
 
 .content-section {
@@ -261,7 +278,8 @@
 
 /* Updates section styling */
 .updates-section {
-  margin-top: 1rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 .updates-section h2 {
