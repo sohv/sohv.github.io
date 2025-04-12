@@ -20,7 +20,7 @@ title: Sohan's Space
     <li>Projects: Training an RL agent to trade, experimenting with document retrieval using knowledge graphs.</li>
     <li>Little Secret: My GPU and I are in a committed relationship.</li>
   </ul>
-  <img src="/assets/images/your-image.png" alt="Sohan's photo" class="about-image">
+  <img src="/assets/images/me.png" alt="Sohan's photo" class="about-image">
 </div>
   
   <div class="connect-section">
