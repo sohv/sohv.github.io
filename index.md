@@ -47,7 +47,7 @@ title: Sohan's Space
     <div class="update-card">
       <span class="update-date">12 Apr 2024</span>
       <div class="update-content">
-        <h3><i>Blog page - Work in Progress</i></h3>
+        <h3>Blog page - Work in Progress</h3>
         <p>The two blogs you see in Blog section are just templates, not actual posts. Stay tuned for my first blog.</p>
       </div>
     </div>

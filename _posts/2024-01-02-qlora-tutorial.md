@@ -7,8 +7,6 @@ description: "A practical guide to implementing QLoRA (Quantized Low-Rank Adapta
 thumbnail: "/assets/images/blog/qlora-thumbnail.png"
 ---
 
-# Implementing QLoRA: A Step-by-Step Guide to Efficient Fine-tuning
-
 QLoRA (Quantized Low-Rank Adaptation) has emerged as a game-changing technique for fine-tuning large language models efficiently. In this tutorial, we'll walk through its implementation and best practices.
 
 ## What is QLoRA?

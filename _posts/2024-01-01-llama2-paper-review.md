@@ -7,8 +7,6 @@ description: "A comprehensive review of Meta's Llama 2 paper, analyzing its arch
 thumbnail: "/assets/images/blog/llama2-thumbnail.png"
 ---
 
-# Understanding Llama 2: A Deep Dive into Meta's Latest LLM
-
 Meta's release of Llama 2 marked a significant milestone in the development of open-source language models. In this post, we'll explore the key innovations and architectural decisions that make Llama 2 stand out.
 
 ## Key Improvements from Llama 1
