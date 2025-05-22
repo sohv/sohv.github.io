@@ -4,7 +4,6 @@ title: Sohan's Space
 ---
 
 <h1 class="main-heading">Sohan's Space</h1>
-<!-- <p class="subtitle">Coming soon-ish!</p> -->
 
 <div class="about-container">
   <p class="intro-text">Hey there, I'm Sohan 👋<br>
@@ -13,12 +12,14 @@ title: Sohan's Space
 <div class="about-section">
   <ul class="about-list">
     <li>Based in: Bangalore</li>
-    <li>Interests: code, AI, sports, whatever feels fun</li>
-    <li>Currently: Studying CSE at MIT (Not Massachusetts, Manipal 🙃)</li>
-    <li>Learning: Reinforcement learning and LLM optimization</li>
-    <li>Goal: Building AI systems that are safe, responsible and generalizable</li>
-    <li>Projects: Training an RL agent to trade, experimenting with document retrieval using knowledge graphs.</li>
-    <li>Little Secret: My GPU and I are in a committed relationship.</li>
+    <li>I like to : research, code, sports, whatever feels fun</li>
+    <li>Education: studying CSE at MIT (Not Massachusetts, Manipal 🙃)</li>
+    <li>Currently: researching LLMs @ Precog, IIIT Hyderabad under Prof. PK </li>
+    <li>Learning: deep RL and LLM reasoning</li>
+    <!--<li>Interests: LLM reasoning, interpretability, AI safety. </li> -->
+    <li>Goal: building AI systems that are safe, interpretable and generalizable</li>
+    <li>Current projects: Theo (personal digital twin), ResumeRoast</li>
+    <li>Little Secret: My GPU and I are in a committed relationship 😏</li>
   </ul>
   <img src="/assets/images/me.png" alt="Sohan's photo" class="about-image">
 </div>
@@ -40,18 +41,18 @@ title: Sohan's Space
   </div>
 </div>
 
+
 <div class="updates-section">
   <h2>Updates</h2>
+
   <div class="updates-container">
-  <!-- Copy from here -->
     <div class="update-card">
-      <span class="update-date">12 Apr 2024</span>
+      <span class="update-date">22 May 2025</span>
       <div class="update-content">
-        <h3>Blog page - Work in Progress</h3>
-        <p>The two blogs you see in Blog section are just templates, not actual posts. Stay tuned for my first blog.</p>
+        <h3>First blog - Work in Progress 🚧</h3>
+        <p>Stay tuned for my first blog that will be released by EOM</p>
       </div>
     </div>
-  <!-- stop here -->
 
   <!-- another update
     <div class="update-card">
@@ -61,6 +62,7 @@ title: Sohan's Space
         <p>Starting a new series on LLM optimization techniques, stay tuned!</p>
       </div>
     </div>
-  <!-- stop here -->
+  <!-- stop here 
   </div>
 </div>
+-->

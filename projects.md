@@ -8,6 +8,19 @@ permalink: /projects/
 <p class="subtitle">A list of all projects I have done and am currently doing</p>
 
 <div class="projects-grid">
+  <a href="https://github.com/sohv/resumeroast" class="project-card">
+    <div class="project-thumbnail">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+      </svg>
+    </div>
+    <div class="project-content">
+      <h3 class="project-title">ResumeRoast *</h3>
+      <p class="project-description">This tool evaluates your resume/CV against a job listing posted (only on) LinkedIn and gives it a score (out of 100) that demonstrates your fit and suitability for the role.</p>
+    </div>
+  </a>
+
+
   <a href="https://github.com/sohv/adaptron" class="project-card">
     <div class="project-thumbnail">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -15,7 +28,7 @@ permalink: /projects/
       </svg>
     </div>
     <div class="project-content">
-      <h3 class="project-title">RL Trading Agent *</h3>
+      <h3 class="project-title">RL Trading Agent</h3>
       <p class="project-description">An RL agent trained to trade in Sensex Index using Proximal Policy Optimization (PPO), while demonstrating effective trade execution.</p>
     </div>
   </a>
@@ -40,7 +53,7 @@ permalink: /projects/
     </div>
     <div class="project-content">
       <h3 class="project-title">Adaptive Task Prioritization</h3>
-      <p class="project-description">A RL-based task prioritization system that adaptively schedules the tasks in to-do list based on deadlines and user behavior.</p>
+      <p class="project-description">A RL-based task prioritization agent that adaptively schedules the tasks in to-do list based on deadlines and user behavior.</p>
     </div>
   </a>
 
@@ -65,18 +78,6 @@ permalink: /projects/
     <div class="project-content">
       <h3 class="project-title">Enhanced RAG with Knowledge Graphs</h3>
       <p class="project-description">This RAG-based prototype combines Knowledge Graphs and LlamaIndex to enhance information retrieval from a structured knowledge base.</p>
-    </div>
-  </a>
-
-  <a href="https://github.com/sohv/movie-recommender-bot" class="project-card">
-    <div class="project-thumbnail">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-      </svg>
-    </div>
-    <div class="project-content">
-      <h3 class="project-title">Movie Recommender</h3>
-      <p class="project-description">A chatbot powered by GPT 4.0-mini that recommends movies based on user input, using a Neo4j database that stores and queries the movie details.</p>
     </div>
   </a>
 
