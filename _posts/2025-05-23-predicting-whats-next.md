@@ -7,7 +7,7 @@ description: "This blog provides a clear overview of how language models predict
 thumbnail: "/assets/images/blog/img.jpg"
 ---
 
-Google doesn't track your _____ - you can fill this sentence up with words like location, photos, daydreams and thoughts. But, how does a language model like ChatGPT, Claude, and Gemini do it ? 
+Google doesn't track your _____ - you can fill this sentence up with words like location, photos, daydreams and thoughts. But, how does a language model like ChatGPT, Claude, and Gemini do it ? This question forms the basis of language modeling, an exciting area of research in natural language processing. To understand this 
 
 <img src="/assets/images/blog/word.png" alt="Next word prediction visualization" style="max-width: 100%; height: auto; margin: 1rem auto; border-radius: 8px; display: block;">
 
