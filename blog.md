@@ -13,7 +13,8 @@ permalink: /blog/
     <button class="tag-button" data-tag="paper">Paper</button>
     <button class="tag-button" data-tag="tutorial">Tutorial</button>
     <button class="tag-button" data-tag="project">Project</button>
-    <button class="tag-button" data-tag="opinion">Opinion</button>
+    <button class="tag-button" data-tag="article">Article</button>
+
   </div>
 
   <div class="blog-list">

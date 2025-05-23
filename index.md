@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sohan's Space
+title: Sohan Venkatesh
 ---
 
 <h1 class="main-heading">Sohan's Space</h1>
