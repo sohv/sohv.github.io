@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>How language models predict what word comes next | Sohan’s Space</title>
+<title>Predicting the next word : Understanding how LLMs do it | Sohan Venkatesh</title>
 <meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="How language models predict what word comes next" />
+<meta property="og:title" content="Predicting the next word : Understanding how LLMs do it" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A comprehensive review of Meta’s Llama 2 paper, analyzing its architecture, training methodology, and implications for the AI community." />
-<meta property="og:description" content="A comprehensive review of Meta’s Llama 2 paper, analyzing its architecture, training methodology, and implications for the AI community." />
+<meta name="description" content="This blog provides a clear overview of how language models predict the next word in a sentence, hence offering deep insights into the basics of language modeling" />
+<meta property="og:description" content="This blog provides a clear overview of how language models predict the next word in a sentence, hence offering deep insights into the basics of language modeling" />
 <link rel="canonical" href="http://localhost:4000/2025/05/23/predicting-whats-next.html" />
 <meta property="og:url" content="http://localhost:4000/2025/05/23/predicting-whats-next.html" />
-<meta property="og:site_name" content="Sohan’s Space" />
+<meta property="og:site_name" content="Sohan Venkatesh" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-05-23T00:00:00+05:30" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="How language models predict what word comes next" />
+<meta property="twitter:title" content="Predicting the next word : Understanding how LLMs do it" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-23T00:00:00+05:30","datePublished":"2025-05-23T00:00:00+05:30","description":"A comprehensive review of Meta’s Llama 2 paper, analyzing its architecture, training methodology, and implications for the AI community.","headline":"How language models predict what word comes next","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/05/23/predicting-whats-next.html"},"url":"http://localhost:4000/2025/05/23/predicting-whats-next.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-23T00:00:00+05:30","datePublished":"2025-05-23T00:00:00+05:30","description":"This blog provides a clear overview of how language models predict the next word in a sentence, hence offering deep insights into the basics of language modeling","headline":"Predicting the next word : Understanding how LLMs do it","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/05/23/predicting-whats-next.html"},"url":"http://localhost:4000/2025/05/23/predicting-whats-next.html"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=f67d743391ef6b6bfebd050ad0ee6c5c8c1bbb3d">
+    <link rel="stylesheet" href="/assets/css/style.css?v=8cf583181534b638f9a086fd618f0757506b0c6a">
     <link rel="stylesheet" href="/assets/css/custom.css">
   </head>
   <body>
@@ -38,9 +38,14 @@
       <section>
 
       <small>23 May 2025</small>
-<h1>How language models predict what word comes next</h1>
+<h1>Predicting the next word : Understanding how LLMs do it</h1>
 
-<p>Meta’s release of Llama 2 marked a significant milestone in the development of open-source language models. In this post, we’ll explore the key innovations and architectural decisions that make Llama 2 stand out.</p>
+<p>Google doesn’t track your _____ - you can fill this sentence up with words like location, photos, daydreams and thoughts. But, how does a language model like ChatGPT, Claude, and Gemini do it ?</p>
+
+<p><img src="/assets/images/blog/word.png" alt="Next word prediction visualization" style="max-width: 100%; height: auto; margin: 1rem auto; border-radius: 8px; display: block;" /></p>
+
+<!-- left aligned
+<img src="/assets/images/blog/next-word-prediction.jpg" alt="Next word prediction visualization" style="max-width: 100%; height: auto; margin: 2rem 0; border-radius: 8px;"> -->
 
 <h2 id="key-improvements-from-llama-1">Key Improvements from Llama 1</h2>
 

@@ -1,13 +1,18 @@
 ---
 layout: post
-title: "How language models predict what word comes next"
+title: "Predicting the next word : Understanding how LLMs do it"
 date: 2025-05-23 
 tags: [article]
-description: "A comprehensive review of Meta's Llama 2 paper, analyzing its architecture, training methodology, and implications for the AI community."
-thumbnail: "/assets/images/blog/llama2-thumbnail.png"
+description: "This blog provides a clear overview of how language models predict the next word in a sentence, hence offering deep insights into the basics of language modeling"
+thumbnail: "/assets/images/blog/img.jpg"
 ---
 
-Meta's release of Llama 2 marked a significant milestone in the development of open-source language models. In this post, we'll explore the key innovations and architectural decisions that make Llama 2 stand out.
+Google doesn't track your _____ - you can fill this sentence up with words like location, photos, daydreams and thoughts. But, how does a language model like ChatGPT, Claude, and Gemini do it ? 
+
+<img src="/assets/images/blog/word.png" alt="Next word prediction visualization" style="max-width: 100%; height: auto; margin: 1rem auto; border-radius: 8px; display: block;">
+
+<!-- left aligned
+<img src="/assets/images/blog/next-word-prediction.jpg" alt="Next word prediction visualization" style="max-width: 100%; height: auto; margin: 2rem 0; border-radius: 8px;"> -->
 
 ## Key Improvements from Llama 1
 
