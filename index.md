@@ -14,7 +14,7 @@ title: Sohan's Space
     <li>Based in: Bangalore</li>
     <li>I like to : research, code, sports, whatever feels fun</li>
     <li>Education: studying CSE at MIT (Not Massachusetts, Manipal 🙃)</li>
-    <li>Currently: researching LLMs @ Precog, IIIT Hyderabad under Prof. PK </li>
+    <li>Currently: research @ Precog, IIITH</li>
     <li>Learning: deep RL and LLM reasoning</li>
     <!--<li>Interests: LLM reasoning, interpretability, AI safety. </li> -->
     <li>Goal: building AI systems that are safe, interpretable and generalizable</li>
