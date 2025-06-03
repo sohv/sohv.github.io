@@ -1,3 +1,19 @@
+.readme-content {
+  font-size: 16px;
+  font-family: Calibri, 'Segoe UI', Arial, sans-serif;
+  color: #000000;
+}
+
+.readme-content h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.readme-content h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .button-container {
   margin-top: 0;
   margin-bottom: 1.5rem;
@@ -76,7 +92,19 @@
 
 .main-heading {
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .subtitle {

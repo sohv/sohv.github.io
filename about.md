@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div class="about-container">
-  <p class="intro-text">Hello, I'm Sohan 👋<br>
+  <p class="intro-text">Welcome to my <i>chaos lab</i> 👋<br>
   I build things with AI and sometimes write about them.</p>
   
   <ul class="about-list">

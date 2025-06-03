@@ -3,10 +3,10 @@ layout: default
 title: Sohan Venkatesh
 ---
 
-<h1 class="main-heading">Sohan's Space</h1>
+<h1 class="main-heading">uncanny chaos</h1>
 
 <div class="about-container">
-  <p class="intro-text">Hey there, I'm Sohan 👋<br>
+  <p class="intro-text"><i>hey</i> there, I'm Sohan 👋<br>
   I build things with AI and sometimes write about them.</p>
   
 <div class="about-section">
@@ -47,7 +47,7 @@ title: Sohan Venkatesh
 
   <div class="updates-container">
     <div class="update-card">
-      <span class="update-date">22 May 2025</span>
+      <span class="update-date">June 3 2025</span>
       <div class="update-content">
         <h3>First blog - Work in Progress 🚧</h3>
         <p>Stay tuned for my first blog that will be released by EOM</p>
