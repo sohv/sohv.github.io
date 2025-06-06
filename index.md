@@ -3,8 +3,8 @@ layout: default
 title: Sohan Venkatesh
 ---
 
-<h1 class="main-heading">uncanny chaos</h1>
-
+<h1 class="main-heading">/>sohvnk</h1>
+<!-- aka uncanny chaos -->
 <div class="about-container">
   <p class="intro-text"><i>hey</i> there, I'm Sohan 👋<br>
   I build things with AI and sometimes write about them.</p>
