@@ -1,0 +1,11 @@
+{% if site.updates.size > 0 %}
+  {% assign updates = site.updates | sort: 'date' | reverse %}
+  <div class="updates-container">
+    {% for update in updates %}
+      <div class="update-item">
+        <span class="update-date">{{ update.date | date: "%B %d, %Y" }}</span>
+        <span class="update-content">{{ update.content | strip_html }}</span>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %} 

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<header>
+{% if site.theme_config.show_navbar == true %}
+  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+{% endif %}
+
+  <h1>{{ page.title | default: site.title }}</h1>
+</header>
+
+{{ content }}
+
+{% if site.theme_config.show_blog == true %}
+  <h2>{{ site.theme_config.home.title_blog }}</h2>
+  {% include post_list.html %}
+{% endif %}
+
+{% if site.theme_config.show_updates == true %}
+  <h2>Updates</h2>
+  {% include update_list.html %}
+{% endif %}
+
+{% if site.theme_config.show_misc_list == true %}
+  <h2>{{ site.theme_config.home.title_misc_list }}</h2>
+  {% include vertical_list.html collection=site.data.home.misc_entries %}
+{% endif %}

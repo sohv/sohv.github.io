@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<a href="{{ site.baseurl }}/">{{ site.theme_config.back_home_text }}</a>
+
+<header>
+  <h1>{{ page.title | default: site.title }}</h1>
+</header>
+
+{{ content }}
+
+{% if site.data.home.experience_entries %}
+  <h2>Experience</h2>
+  <div class="experience-container">
+    {% for exp in site.data.home.experience_entries %}
+      <div class="experience-card">
+        <div class="experience-header">
+          {% if exp.logo %}
+            <img src="{{ exp.logo }}" alt="{{ exp.company }} logo" class="company-logo">
+          {% endif %}
+          <div class="experience-title">
+            <div class="experience-title-left">
+              <h3>{{ exp.title }}</h3>
+              <h4>{{ exp.company }}</h4>
+            </div>
+            <p class="period">{{ exp.period }}</p>
+          </div>
+        </div>
+        <p class="description">{{ exp.description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% if site.theme_config.show_projects == true %}
+  <h2>{{ site.theme_config.home.title_projects }}</h2>
+  <div class="portfolio-container">
+    {% for project in site.data.home.project_entries %}
+      <a href="{{ project.url }}" class="portfolio-card-link">
+        <div class="portfolio-card">
+          <div class="portfolio-header">
+            <div class="portfolio-title">
+              <h3>{{ project.title }}</h3>
+              {% if project.highlight %}
+                <span class="highlight">{{ project.highlight }}</span>
+              {% endif %}
+            </div>
+          </div>
+          <p class="description">{{ project.desc }}</p>
+        </div>
+      </a>
+    {% endfor %}
+    <p class="portfolio-note">* indicates ongoing projects</p>
+  </div>
+{% endif %} 

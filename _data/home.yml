@@ -1,0 +1,117 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: research
+    url: research
+
+  - title: experience
+    url: experience
+
+  - title: blog
+    url: blog
+
+  #- title: cv
+  #  url: /files/cv.pdf
+
+experience_entries:
+  - title: Research Assistant
+    company: Precog, IIIT Hyderabad
+    period: "May 2025 - Present"
+    description: I work on analyzing the personality of LLMs before and after the fine-tuning on narrow tasks under the guidance of Prof. Ponnurangam Kumaraguru.
+    location: Hyderabad, India
+    logo: "/assets/images/precog_logo.png"
+
+  - title: Software Development Intern
+    company: MIT Bengaluru
+    period: "Sept 2024 - Mar 2025"
+    description: I worked on frontend development and documentation for the project 'Accreditation and Ranking Database System' at Application Development Cell, MIT Bengaluru.
+    location: Bengaluru, India
+    logo: "/assets/images/manipal_logo.jpg"
+  
+  - title: Data Science Fellow
+    company: Fellowship.ai
+    period: "July 2024 - Sept 2024"
+    description: I built a copilot for Jupyter notebooks to assist data scientists in writing and debugging code.
+    location: Remote
+    logo: "/assets/images/fellowship.png"
+  
+  - title: Project Intern
+    company: Infosys
+    period: "May 2024 - July 2024"
+    description: I developed a machine learning model to predict obesity risk across multiple classes taking various factors into account.
+    location: Bengaluru, India
+    logo: "/assets/images/infosys.png"
+  
+
+project_entries:
+  - title: ResumeRoast *
+    url: https://github.com/sohv/resumeroast
+    desc: This tool evaluates your resume/CV against a job listing posted on LinkedIn and gives it a score (out of 100) that demonstrates your fit and suitability for the role.
+
+  - title: RL Trading agent
+    url: https://github.com/sohv/adaptron
+    desc: An agent trained to trade in Sensex Index using Proximal Policy Optimization (PPO), while demonstrating effective trade execution.
+
+  - title: Financial Compliance Monitoring
+    url: https://github.com/sohv/compliance-graph
+    desc: A prototype that evaluates the financial compliance of a transaction against a set of rules stored in Neo4j database using semantic search + rule-based system.
+
+  - title: Adaptive Task Prioritization
+    url: https://github.com/sohv/todo-list-prioritization
+    desc: A RL-based task prioritization agent that adaptively schedules the tasks in to-do list based on deadlines and user behavior.
+
+  - title: PEFT-optimized SQL chatbot
+    url: https://github.com/sohv/sql_chatbot
+    desc: A chatbot that generates SQL queries based on user input using Llama 3.3 70B model fine-tuned with QLoRA (Quantized Low-Rank Adaptation) optimally.
+
+  - title: Graph-based RAG
+    url: https://github.com/sohv/RAG-knowledgegraph
+    desc: This RAG-based prototype combines Knowledge Graphs and LlamaIndex to enhance information retrieval from a structured knowledge base.
+
+footer_entries:
+  - title: linkedin
+    url: https://www.linkedin.com/in/sohan-venkatesh/
+
+  - title: twitter
+    url: https://x.com/classytiol
+
+  - title: github
+    url: https://github.com/sohv
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+  - title: this is an example vertical list
+    url: false
+
+  - title: you can show or hide using a boolean flag in _config.yml
+    url: false
+
+  - title: and you can add data in _data/home.yml
+    url: false
+
+  - title: Blog posts
+    post_list: true
+    url: false
+
+  - title: moonwalk on the Internet
+    url: false
+    entries:
+      - title: on Github
+        url: https://github.com/abhinavs/moonwalk
+
+      - title: originally built for abhinav's homepage
+        url: https://www.abhinav.co
+
+      - title: this list is scalable and can be nested
+        url: false
+        entries:
+          - title: this is nested inside a nested list
+            url: false
+
+          - title: it is easy to use, see _data/home.yml to see how to configure it.
+            url: false
+
+
