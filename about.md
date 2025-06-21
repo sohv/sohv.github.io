@@ -38,6 +38,7 @@ title: About
     </div>
   </div>
 
+<!--
   <div class="contact-section">
     <p><strong>Get in touch:</strong></p>
     <form action="https://formspree.io/f/xpwrjnvo" method="POST" class="contact-form">
@@ -48,3 +49,4 @@ title: About
     </form>
   </div>
 </div>
+-->

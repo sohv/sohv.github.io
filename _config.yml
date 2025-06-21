@@ -12,8 +12,6 @@ twitter:
     username: classytiol # update or delete this
     card: summary_large_image
 
-remote_theme: abhinavs/moonwalk
-
 theme_config:
   appearance: "light" # can be "light", "dark" or "auto"
   appearance_toggle: false # if appearance can be switched by user
