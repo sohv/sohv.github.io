@@ -22,12 +22,12 @@ experience_entries:
     location: Hyderabad, India
     logo: "/assets/images/precog_logo.png"
 
-  - title: Software Development Intern
+  - title: Software Developer
     company: MIT Bengaluru
     period: "Sept 2024 - Mar 2025"
     description: I worked on frontend development and documentation for the project 'Accreditation and Ranking Database System' at Application Development Cell, MIT Bengaluru.
     location: Bengaluru, India
-    logo: "/assets/images/manipal_logo.jpg"
+    logo: "/assets/images/adc.jpeg"
   
   - title: Data Science Fellow
     company: Fellowship.ai

@@ -13,7 +13,7 @@ title: About
     <li>Education: Studying CSE at MIT (Not Massachusetts, Manipal 😊)</li>
     <li>Work : Research @ Precog, IIIT Hyderabad</li>
     <li>Learning: RLHF and LLM reasoning</li>
-    <li>Dream: To build AI systems that are safe, interpretable and generalizable</li>
+    <li>Dream: To build AI systems that are safe, interpretable and human aligned.</li>
     <!--<li>Little Secret: My GPU and I are in a committed relationship 😏.</li> -->
     <li>Find a formal description of my background <a href="/files/cv.pdf" target="_blank">here</a></li>
   </ul>
