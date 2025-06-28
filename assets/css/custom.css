@@ -278,3 +278,33 @@
 .contact-form button:hover {
   opacity: 0.8;
 }
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.intro-section {
+  flex: 1;
+}
+
+.about-image {
+  flex-shrink: 0;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-image {
+    order: -1;
+    margin-bottom: 1rem;
+  }
+}

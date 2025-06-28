@@ -15,7 +15,7 @@ navbar_entries:
   #  url: /files/cv.pdf
 
 experience_entries:
-  - title: Research Assistant
+  - title: Research Intern
     company: Precog, IIIT Hyderabad
     period: "May 2025 - Present"
     description: I work on analyzing the personality of LLMs before and after the fine-tuning on narrow tasks under the guidance of Prof. Ponnurangam Kumaraguru.
