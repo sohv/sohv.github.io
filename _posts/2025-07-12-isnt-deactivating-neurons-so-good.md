@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title: "Isn't deactivating neurons so good?"
-date: 2025-07-13
+date: 2025-07-12
 tags: [article]
 ---
 
