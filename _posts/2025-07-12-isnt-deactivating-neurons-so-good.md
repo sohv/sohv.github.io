@@ -3,7 +3,6 @@ layout: blog_post
 title: "Isn't deactivating neurons so good?"
 date: 2025-07-12
 tags: [article]
-permalink: /blog/isnt-deactivating-neurons-so-good/
 ---
 
 When we talk about neural network interpretability, one of the most fascinating questions is: *what happens when we turn off specific neurons?*  It's like asking what happens when we remove a single instrument from an orchestra - sometimes the music barely changes, and sometimes the whole symphony falls apart.

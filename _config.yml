@@ -4,7 +4,7 @@ url: https://sohv.github.io
 baseurl: ""
 # description: hey
 
-permalink: /:slug
+permalink: /blog/:title/
 
 favicon: "/assets/images/sv.png"
 
