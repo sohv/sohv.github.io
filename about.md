@@ -18,7 +18,7 @@ title: about
       <p>find a more formal description of my background <a href="/files/cv.pdf" target="_blank">here</a>.</p>
     </div>
     
-    <img src="/assets/images/sohan.png" alt="Sohan's photo" class="about-image" style="width: 150px; height: 150px;">
+    <img src="/assets/images/sv.png" alt="Sohan's photo" class="about-image" style="width: 150px; height: 150px;">
   </div>
 
   <div class="social-section">
