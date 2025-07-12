@@ -30,7 +30,7 @@ Curious about how this works, I decided to experiment with neuron ablation mysel
 
 The interesting part was implementing the ablation mechanism. I created a system to identify which neurons were most activated for the digit 7, then "turned off" those neurons using forward hooks that zero out their activations. My idea was simple: if certain neurons are important for recognizing 7, removing them should specifically hurt the model's ability to classify 7 while leaving other digits relatively unaffected.
 
-After training the network to about 95% accuracy on MNIST, I identified the top 5 most important neurons in the second hidden layer for digit 7 recognition, then ablated them and measured the performance drop. While the overall accuracy dropped slightly, the digit 7 accuracy fell by around 6% - showing that the ablated network struggled specifically with recognizing the digit 7 compared to the original network. 
+After training the network to about 97% accuracy on MNIST, I identified the top 5 most important neurons in the second hidden layer for digit 7 recognition, then ablated them and measured the performance drop. While the overall accuracy dropped slightly, the digit 7 accuracy fell by around 6% - showing that the ablated network struggled specifically with recognizing the digit 7 compared to the original network. 
 
 The results clearly show that ablating digit-specific neurons does have a targeted effect though the overall effect is very marginal. A clear visualization of the result is shown below.
 
