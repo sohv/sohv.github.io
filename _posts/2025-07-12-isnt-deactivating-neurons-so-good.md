@@ -45,7 +45,7 @@ Though neuron ablation is an effective way to study interpretability, it is far 
 
 Another significant challenge in neuron ablation is the *polysemantic nature* of neurons. Most neurons in neural networks don't have a single, clear function - they're involved in multiple different computations simultaneously. When we ablate a neuron, we're not just removing one specific capability, but potentially disrupting several unrelated functions. This makes it incredibly difficult to attribute any observed changes to a specific cause, especially as the neural networks scale and their complexity increases.
 
-## What's next?
+### What's next?
 
 I'm now interested in exploring how neuron ablation is affected as we scale up the neural networks. Furthermore, instead of just asking "what happens when we turn this off?", we can ask "how does this neuron interact with others?" or "what would happen if we modified this neuron in a more targeted way?"
 
