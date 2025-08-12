@@ -53,8 +53,8 @@ project_entries:
     url: https://github.com/sohv/frep
     desc: A tool that fetches recently published academic papers from arXiv based on user interests and sends out alerts via email. 
 
-  - title: ResumeRoast
-    url: https://github.com/sohv/resumeroast
+  - title: Scorj
+    url: https://github.com/sohv/scorj
     desc: This tool evaluates your resume/CV against a job listing posted on LinkedIn and gives it a score (out of 100) that demonstrates your fit and suitability for the role.
 
   - title: RL Trading agent
