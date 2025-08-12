@@ -57,7 +57,7 @@ project_entries:
     url: https://github.com/sohv/scorj
     desc: This tool evaluates your resume/CV against a job listing posted on LinkedIn and gives it a score (out of 100) that demonstrates your fit and suitability for the role.
 
-  - title: RL Trading agent
+  - title: Adaptron
     url: https://github.com/sohv/adaptron
     desc: An agent trained to trade in Sensex Index using Proximal Policy Optimization (PPO), while demonstrating effective trade execution.
 
