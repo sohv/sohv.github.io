@@ -77,6 +77,21 @@ project_entries:
     url: https://github.com/sohv/RAG-knowledgegraph
     desc: This RAG-based prototype combines Knowledge Graphs and LlamaIndex to enhance information retrieval from a structured knowledge base.
 
+research_project_entries:
+  - title: Do LLMs understand causality or just imitate it? 
+    period: "June'25 - July'25"
+    description: This project tests whether LLMs can truly learn causal relationships or if they simply imitate known patterns. The LLM-generated simulations of the outputs were compared with results from classical causal algorithms - LiNGAM, ConstraintPC, and PsiFCI. 
+    logo: "/assets/images/causal.jpg"
+    github_url: "https://github.com/sohv/causality-in-llm"
+    doc_url: "https://docs.google.com/document/d/1RzaNkb1vZgs-ZfQsniWxIBW2SsLqfvo4grxPxizgIeY/edit?usp=sharing"
+
+#research_publication_entries:
+#  - title: "Sample Publication Title"
+#    venue: "Conference/Journal Name"
+#    year: "2025"
+#    description: "Brief description of the publication and its contributions to the field."
+    # logo: "/assets/images/venue_logo.png"  # Optional logo
+
 footer_entries:
   - title: linkedin
     url: https://www.linkedin.com/in/sohan-venkatesh/
