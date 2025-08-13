@@ -297,6 +297,33 @@
   object-fit: cover;
 }
 
+/* Research Project Links Styles */
+.research-project-links {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.research-link {
+  color: var(--text-secondary);
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.research-link:hover {
+  color: var(--text-primary);
+  transform: scale(1.1);
+}
+
+.research-link svg {
+  width: 16px;
+  height: 16px;
+}
+
 @media (max-width: 768px) {
   .content-wrapper {
     flex-direction: column;
