@@ -193,19 +193,20 @@ keep_files:
   - .nojekyll
 
 # Plug-ins
-# Only GitHub Pages supported plugins
 plugins:
+  - jekyll-archives
+  - jekyll-email-protect
   - jekyll-feed
+  - jekyll-imagemagick
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-toc
   - jemoji
-  - jekyll-seo-tag
-  - jekyll-github-metadata
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
+
+theme: jekyll-theme-primer
 
 # Sitemap settings
 defaults:
