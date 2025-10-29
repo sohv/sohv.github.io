@@ -2,7 +2,7 @@
 layout: page
 title: "Fetch REcent Papers (FREP)"
 description: A web API that fetches and displays the latest research papers from arXiv based on user-specified topics and keywords, helping researchers stay updated with recent publications in their field.
-img: assets/img/frep.jpg
+img: assets/img/gip1.gif
 importance: 1
 github: https://github.com/sohv/frep
 website: https://frep.onrender.com/docs
