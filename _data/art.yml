@@ -1,0 +1,11 @@
+# List your generative art pieces here. Thumbnails should be landscape images.
+# Each art folder should live at: assets/art/<slug>/ with at least index.html and sketch.js
+# Clicking a thumbnail will open /assets/art/<slug>/index.html
+
+items:
+  # Example entries — replace with your own
+  - title: generative motion currents
+    slug: car
+    thumbnail: /assets/img/art/gif1.gif
+
+
