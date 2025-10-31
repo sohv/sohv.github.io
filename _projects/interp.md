@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "InterpBoard *"
-description: A comprehensive library for interpreting and analyzing transformer language models. Built for researchers and developers who want to understand how LLMs work under the hood. Currently work in progress (hopefully will be better than TransformerLens!).
+description: A comprehensive library for interpreting and analyzing transformer language models. Built for researchers and developers who want to understand how LLMs work under the hood. Currently work in progress (hopefully will be better than TransformerLens ;)).
 img: assets/img/interp.png
 importance: 2
 github: https://github.com/sohv/interpboard

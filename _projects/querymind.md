@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "QueryMind: Intelligent SQL agent"
+title: "QueryMind"
 description: An AI agent that connects to real-time databases through the MCP allowing natural language to SQL query translation and secure live data access. It supports full CRUD operations, enabling data management through natural language commands.
 img: assets/img/db.jpg
 importance: 1

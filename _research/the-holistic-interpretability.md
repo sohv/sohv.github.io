@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Holistic Interpretability
-description: The analysis of MNIST-trained CNN network using neuron ablation, gradient attribution, causal tracing and mechanistic interventions to understand the role of individual neurons and their interactions
+description: Analyzed the CNNs trained on MNIST and FashionMNIST using neuron ablation, causal tracing and activation interventions to understand the role of individual neurons and their interactions in model predictions.
 img: assets/img/cnn.png
 importance: 1
 github: https://github.com/sohv/the-holistic-interpretability

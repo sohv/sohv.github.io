@@ -3,7 +3,7 @@ layout: page
 title: "Adaptron"
 description: A RL-based trading agent for the BSE Sensex that executes buy/sell trades, achieving an average annualized return of 9%. This was trained on 15 years of historical Sensex data and was benchmarked against RL algorithms like Deep Q-network, A2C and A3C.
 img: assets/img/stock.png
-importance: 3
+importance: 4
 github: https://github.com/sohv/adaptron
 ---
 
