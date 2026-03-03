@@ -591,13 +591,23 @@ footer.sticky-bottom {
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      margin-bottom: 0.5rem;
+    }
 
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       margin-bottom: 0;
+      margin-top: -0.1rem;
     }
 
     .post-tags {
@@ -618,6 +628,26 @@ footer.sticky-bottom {
 
     mjx-container[jax="CHTML"][display="true"] {
       display: unset;
+    }
+  }
+}
+
+.post-navigation {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  .back-to-blog-btn {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
     }
   }
 }
@@ -727,6 +757,26 @@ footer.sticky-bottom {
     text-align: right;
   }
 
+  .links {
+    a.btn {
+      color: var(--global-text-color);
+      border: 1px solid var(--global-text-color);
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      margin-left: 0;
+
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+      }
+    }
+    a.award.btn {
+      border-color: var(--global-highlight-color);
+    }
+  }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -790,26 +840,6 @@ footer.sticky-bottom {
             color: var(--global-text-color);
             border-bottom: 1px dashed var(--global-text-color);
           }
-        }
-      }
-
-      .links {
-        a.btn {
-          color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
-
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
-          }
-        }
-        a.award.btn {
-          border-color: var(--global-highlight-color);
         }
       }
 

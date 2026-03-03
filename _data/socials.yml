@@ -16,7 +16,7 @@ email: soh.venkatesh@gmail.com # your email address
 github_username: sohv # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
-# huggingface_username: # your HuggingFace username
+huggingface_username: sohv # your HuggingFace username
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # instagram_id: # your instagram id
@@ -34,8 +34,8 @@ linkedin_username: sohan-venkatesh # your LinkedIn user name
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
-# scholar_userid: # your Google Scholar ID
+# rss_icon: true # comment this line to hide the RSS icon
+scholar_userid: xj9UHpcAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -49,5 +49,5 @@ rss_icon: true # comment this line to hide the RSS icon
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
 x_username: sohvnk # your X handle
-youtube_id: sohvnk # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: sohven # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username

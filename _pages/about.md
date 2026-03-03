@@ -6,11 +6,11 @@ subtitle: AI researcher, Developer, Student
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: person.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -24,9 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey there! I'm Sohan. I'm currently a 4th year undergraduate student at <a href="https://www.manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/mitblr.html">Manipal Institute of Technology</a> studying Computer Science with a specialization in Artificial Intelligence. I also work as a Research Intern at <a href="https://www.precog.iiit.ac.in/">Precog</a> where I study the representation of LLM personality traits and how fine-tuning affects these traits.
+Hey there! I'm Sohan. I'm currently a 4th year undergraduate student at <a href="https://www.manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/mitblr.html">Manipal Institute of Technology</a> studying Computer Science with a specialization in Artificial Intelligence.
 
-My research interests lie in understanding and improving AI systems, particularly large language models, with a strong focus on safety, robustness and alignment with human values. I'm also interested in the interpretability of these models, how they represent and process information and how we can scale them efficiently without compromising safety or performance.
+My research interests focus on understanding LLM capabilties, interpretability of foundation models, AI safety and alignment and representation engineering. I'm also interested in neuro-symbolic reasoning and causality as methods and lenses to support my interests in understanding and controlling model representations for safety and interpretability.
 
-
-I have also worked on various interesting projects, some of which you can find <a href="https://sohv.github.io/projects/">here</a>. If you find my work interesting, feel free to reach out to me via email or connect with me on LinkedIn/X!
+I've also worked on various interesting <a href="https://sohv.github.io/research/">research</a> and <a href="https://sohv.github.io/projects/">technical projects</a>. Feel free to reach out to me via email if you find my work interesting!

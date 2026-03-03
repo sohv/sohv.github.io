@@ -39,7 +39,7 @@ After training the network to about 97% accuracy on MNIST, I identified the top 
 The results clearly show that ablating digit-specific neurons does have a targeted effect though the overall effect is very marginal. A clear visualization of the result is shown below.
 
 <figure style="text-align: center;">
-  <img src="/assets/img/ablation.png" alt="Neuron Ablation Results" style="width: 80%; height: auto; display: block; margin: 0 auto;">
+  <img src="/assets/img/ablation.png" alt="Neuron Ablation Results" style="width: 55%; height: auto; display: block; margin: 0 auto;">
   <figcaption><em>Comparison of model performance before and after ablation</em></figcaption>
 </figure>
 
@@ -53,4 +53,4 @@ Another significant challenge in neuron ablation is the *polysemantic nature* of
 
 I'm now interested in exploring how neuron ablation is affected as we scale up the neural networks. Furthermore, instead of just asking "what happens when we turn this off?", we can ask "how does this neuron interact with others?" or "what would happen if we modified this neuron in a more targeted way?"
 
-The end goal isn't just to understand individual neurons, but to fully grasp the fundamental principles that make neural networks interpretable. I believe that understanding these broader patterns is imperative in building AI systems that are truly transparent and interpretable. You can find the code for my experiments [here](https://github.com/zeropropai/neuron-ablation-cnn).
+The end goal isn't just to understand individual neurons, but to fully grasp the fundamental principles that make neural networks interpretable. I believe that understanding these broader patterns is imperative in building AI systems that are truly transparent and interpretable. You can find the code for my experiments [here](https://github.com/sohv/the-holistic-interpretability).

@@ -1,10 +1,9 @@
 ---
 layout: page
-title: "Financial Compliance with Knowledge Graphs"
+title: "ComplyGraph"
 description: A prototype that evaluates the financial compliance of a transaction against a set of rules stored in Neo4j database using semantic search + rule-based system.
-img: assets/img/graph.png
 importance: 3
-github: https://github.com/sohv/compliance-graph
+github: https://github.com/sohv/complygraph
 ---
 
 # How to Add Images to Projects

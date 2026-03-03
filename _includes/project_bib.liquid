@@ -1,59 +1,34 @@
-<div class="row">
-  {% if entry.img %}
-    <div class="col col-sm-2 abbr">
-      {% if entry.img %}
-        {% assign entry_path = entry.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=entry_path
-          sizes = "200px"
-          class="preview z-depth-1 rounded"
-          zoomable=true
-          avoid_scaling=true
-          alt=entry.title
-        %}
-      {% endif %}
-    </div>
-  {% endif %}
-
-  <div class="{% if entry.img %}col-sm-8{% else %}col-sm-10{% endif %}">
-    <!-- Title -->
-    <div class="title"><strong>{{ entry.title }}</strong></div>
-
-    <!-- Description -->
-    <div class="author">
-      {{ entry.description }}
-    </div>
-
-    <!-- Links/Buttons -->
-    <div class="links">
-      {% if entry.github %}
-        <a href="{{ entry.github }}" class="btn btn-sm z-depth-0" role="button">
-          <i class="fa-brands fa-github"></i> Code
+<div style="margin-bottom: 1.5rem;">
+  <div class="title"><strong>{{ entry.title }}</strong></div>
+  <div class="author">
+    {{ entry.description }}
+  </div>
+  <div class="links">
+    {% if entry.github %}
+      <a href="{{ entry.github }}" class="btn btn-sm z-depth-0" role="button">
+        <i class="fa-brands fa-github"></i> Code
+      </a>
+    {% endif %}
+    {% if entry.website %}
+      <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">
+        <i class="fa-solid fa-globe"></i> Website
+      </a>
+    {% endif %}
+    {% if entry.youtube %}
+      <a href="{{ entry.youtube }}" class="btn btn-sm z-depth-0" role="button">
+        <i class="fa-brands fa-youtube"></i> Video
+      </a>
+    {% endif %}
+    {% if entry.pdf %}
+      {% if entry.pdf contains '://' %}
+        <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">
+          <i class="fa-solid fa-file-pdf"></i> PDF
+        </a>
+      {% else %}
+        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
+          <i class="fa-solid fa-file-pdf"></i> PDF
         </a>
       {% endif %}
-      {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">
-          <i class="fa-solid fa-globe"></i> Website
-        </a>
-      {% endif %}
-      {% if entry.youtube %}
-        <a href="{{ entry.youtube }}" class="btn btn-sm z-depth-0" role="button">
-          <i class="fa-brands fa-youtube"></i> Video
-        </a>
-      {% endif %}
-      {% if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">
-            <i class="fa-solid fa-file-pdf"></i> PDF
-          </a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
-            <i class="fa-solid fa-file-pdf"></i> PDF
-          </a>
-        {% endif %}
-      {% endif %}
-    </div>
+    {% endif %}
   </div>
 </div>

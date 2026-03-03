@@ -2,7 +2,7 @@
 layout: page
 title: art
 permalink: /art/
-nav: true
+nav: false
 nav_order: 9
 ---
 
