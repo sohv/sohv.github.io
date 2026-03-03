@@ -7,12 +7,12 @@ nav: true
 nav_order: 4
 ---
 
-<div style="margin-bottom: 2rem; text-align: right;">
+<div style="margin-bottom: 1rem; text-align: right;">
   <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.4rem 0.9rem; text-decoration: none; color: var(--global-text-color); font-size: 0.85rem; border-radius: 3px; font-weight: 500; transition: background-color 0.2s, color 0.2s;" onmouseover="this.style.backgroundColor='var(--global-theme-color)'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='var(--global-text-color)';"><i class="fa-solid fa-file-pdf"></i> PDF</a>
 </div>
 
 <!-- Education -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 2rem;">
+<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem;">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-graduation-cap" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Education</h2>
 
 <div style="margin-bottom: 0rem; padding-bottom: 0rem;">
@@ -25,7 +25,7 @@ nav_order: 4
 </div>
 
 <!-- Experience -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 2rem;">
+<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem;">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-briefcase" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Experience</h2>
 
 <div style="margin-bottom: 0.5rem;">
@@ -62,7 +62,7 @@ nav_order: 4
 </div>
 
 <!-- Publications -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 2rem;">
+<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem;">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-book" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Publications</h2>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
@@ -75,7 +75,7 @@ nav_order: 4
 </div>
 
 <!-- Projects -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 2rem;">
+<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem;">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-code" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Projects</h2>
 
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
@@ -97,7 +97,7 @@ nav_order: 4
 
 
 <!-- Achievements -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 2rem;">
+<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem;">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-trophy" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Achievements</h2>
 
 <div style="margin-bottom: 0; font-size: 0.9rem;">
@@ -110,7 +110,7 @@ nav_order: 4
 </div>
 
 <!-- Volunteering -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 2rem;">
+<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem;">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-hands-helping" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Volunteering</h2>
 
 <div style="margin-bottom: 0; font-size: 0.9rem;">
