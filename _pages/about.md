@@ -6,7 +6,7 @@ subtitle: AI researcher, Developer, Student
 
 profile:
   align: right
-  image: person.jpg
+  image: preview.png
   image_circular: false # crops the image to make it circular
   more_info:
 
