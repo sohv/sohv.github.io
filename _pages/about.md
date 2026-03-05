@@ -26,6 +26,7 @@ latest_posts:
 
 Hey there! I'm Sohan. I'm currently a 4th year undergraduate student at <a href="https://www.manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/mitblr.html">Manipal Institute of Technology</a> studying Computer Science with a specialization in Artificial Intelligence.
 
-My research interests focus on understanding LLM capabilties, interpretability of foundation models, AI safety and alignment and representation engineering. I'm also interested in neuro-symbolic reasoning and causality as methods and lenses to support my interests in understanding and controlling model representations for safety and interpretability.
+My research interests focus on understanding LLM capabilties, interpretability of foundation models, AI safety and alignment and representation engineering. I have worked on various projects in these areas including my papers on steering vectors and on algorithmic capabilities of LLMs. You can find more about my research work in the <a href="https://sohv.github.io/research/">research</a> section. 
+<!--I'm also interested in neuro-symbolic reasoning and causality as methods and lenses to support my interests in understanding and controlling model representations for safety and interpretability.-->
 
-I've also worked on various interesting <a href="https://sohv.github.io/research/">research</a> and <a href="https://sohv.github.io/projects/">technical projects</a>. Feel free to reach out to me via email if you find my work interesting!
+I've also worked on various interesting <a href="https://sohv.github.io/projects/">technical projects</a> across LLMs, knowledge graphs and Reinforcement Learning. Feel free to reach out to me via email if you find my work interesting!
