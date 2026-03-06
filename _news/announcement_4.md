@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My <a href="https://arxiv.org/abs/2602.06801">paper</a> on steering vectors got accepted to ICLR CAO workshop 2026!
+My <a href="https://arxiv.org/abs/2602.06801">paper</a> on steering vectors got accepted to ICLR Re-Align workshop 2026!
