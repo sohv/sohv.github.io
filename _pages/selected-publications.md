@@ -9,7 +9,7 @@ nav: false
 
 <!-- Paper 1 -->
 <div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
-  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; min-width: 120px; text-align: center; font-size: 0.85rem;">Re-Align@ICLR</div>
+  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.9rem; border-radius: 4px; font-weight: bold; white-space: nowrap; min-width: 130px; text-align: center; font-size: 0.85rem;">Re-Align@ICLR</div>
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">On the Non-Identifiability of Steering Vectors in Large Language Models</h3>
     <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong>, Ashish Mahendran Kurapath</p>
