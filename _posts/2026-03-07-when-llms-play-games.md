@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "When LLMs Play Games: The Cooperation Secret"
-date: 2026-03-09
+date: 2026-03-07
 description: "What happens when language models face the Prisoner's Dilemma?"
 categories: [AI, LLMs, game-theory, reasoning]
 ---
