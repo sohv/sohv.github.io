@@ -7,11 +7,11 @@
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
         <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">
-          <i class="fa-solid fa-file-pdf"></i> PDF
+          <i class="fa-solid fa-file-pdf"></i> DOC
         </a>
       {% else %}
         <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
-          <i class="fa-solid fa-file-pdf"></i> PDF
+          <i class="fa-solid fa-file-pdf"></i> DOC
         </a>
       {% endif %}
     {% endif %}

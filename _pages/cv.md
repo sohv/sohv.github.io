@@ -178,7 +178,7 @@ function exportCVToPDF() {
   <strong>mlboardkit</strong> — A library for interpreting and analyzing transformer language models. <a href="https://pypi.org/project/mlboardkit/" style="color: var(--global-theme-color);">[PyPI]</a>
 </div>
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>FusionGraph</strong> — A multimodal RAG system that extracts and links information from text and images into a knowledge graph. <a href="https://github.com/sohv/FusionGraph" style="color: var(--global-theme-color);">[Code]</a>
+  <strong>FusionGraph</strong> — A multimodal RAG system that aggregates information from text and images into a unified knowledge source with knowledge graph-based reasoning. <a href="https://github.com/sohv/FusionGraph" style="color: var(--global-theme-color);">[Code]</a>
 </div>
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
   <strong>QueryMind</strong> — An AI agent for natural language to SQL query translation via MCP. <a href="https://github.com/sohv/QueryMind" style="color: var(--global-theme-color);">[Code]</a>
@@ -190,7 +190,7 @@ function exportCVToPDF() {
 
 
 <!-- Achievements -->
-<div id="achievementsSection" style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem;">
+<div id="achievementsSection" style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-trophy" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Achievements</h2>
 
 <div style="margin-bottom: 0; font-size: 0.9rem;">

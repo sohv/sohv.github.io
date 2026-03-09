@@ -1,10 +1,9 @@
 ---
 layout: page
 title: "MCRAG"
-description: This LLM-based system, inspired by GAN design, uses a generator and two critics to generate and iteratively improve written code based on critics' feedback. The generator produces code while the critics evaluate its correctness and efficiency and provide feedback for further refinement.
+description: This LLM-based system, inspired by GAN design, uses a generator and two critics to generate and iteratively improve written code based on critics' feedback. 
 importance: 1
 github: https://github.com/sohv/mcrag
-website: https://hub.docker.com/r/sohanv/mcrag-backend
 youtube: https://www.youtube.com/watch?v=yCULGu7LPDE&t=5s
 ---
 
