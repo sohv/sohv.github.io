@@ -6,8 +6,6 @@ description: "Why the path to robust AI reasoning probably requires building cog
 categories: [AI, LLMs, reasoning]
 ---
 
-I have been thinking about this for a while and I'm going to try to write it out properly because I keep having versions of this conversation informally and I would rather just say it somewhere I can point to.
-
 I work in AI interpretability. I spend most of my time trying to understand what is happening inside large language models: what their representations mean, how they are structured, whether they correspond to anything stable and meaningful. And the more time I spend doing that the more convinced I become that the current trajectory of LLM development is running into something real. Not a temporary wall. A structural one. This is my attempt to articulate why and what I think might actually help.
 
 ## The Marginal Improvement Problem
