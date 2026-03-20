@@ -8,7 +8,7 @@ categories: [AI, LLMs, reasoning]
 
 If you've spent any time with large language models (LLMs), you'll likely have noticed that sometimes the models provide answers that are technically correct but practically useless. In this post, I'll discuss one such failure: the "car wash problem." This is a perfect example of a systematic failure of LLMs that demonstrates the models' shortcomings with pragmatic reasoning. Understanding this gap is important with regards to AI safety because it shows how LLMs can fail at goal-directed reasoning while generating coherent and convincing text.
 
-## The Setup
+### The Setup
 
 You ask an LLM: *I need to clean my car. The car wash station is 100 meters away. Should I walk or drive?*
 
@@ -24,7 +24,7 @@ The model then proceeds to give you a perfectly reasonable lecture about the hea
 
 There's just one problem: **The car is still at home.**
 
-## What's Actually Happening
+### What's Actually Happening
 
 This isn't a quirky one-off failure. It is a systematic problem in the way LLMs handle implicit reasoning chains. The model handles semantic reasoning very well (it understands what "walk" and "drive" mean), retrieves relevant information about the health benefits and environmental impact and provides perfectly reasonable advice. However, it completely fails at pragmatic reasoning—i.e., it has no idea what the speaker wants or what it takes to succeed.
 
@@ -34,19 +34,19 @@ The model passes the semantic test (understanding the literal words) but fails t
 
 This is what I call a **pragmatic reasoning gap**, which is the failure to track implicit causal requirements through multiple steps.
 
-## Why This Happens: A Statistical Perspective
+### Why This Happens: A Statistical Perspective
 
 The model has not really grokked the underlying rules of physical causality and goal-oriented planning. It is stitching together memorized bits from the training data. Research shows LLMs actually suffer from a phenomenon referred to as "simplicity bias", where they tend to favor simpler and more frequent patterns in their representations. "Walking is healthy" is far simpler and more common pattern than a complex planning problem about moving a car.
 
 The car wash problem points to the model not generalizing the basic principle that **if X must be at location Y so that action Z can be performed on it, then X must be moved to location Y.** Instead, it's relying on surface-level heuristics.
 
-### The Deeper Issue: Memorization vs. Generalization
+#### The Deeper Issue: Memorization vs. Generalization
 
 LLMs essentially do next-token prediction<sup>[1](#ref-1)</sup> over training data. When they see the prompt "100m away, should I walk or drive?", the strongest statistical patterns in the training data are about health and fitness discussions, environmental impact comparisons and urban planning debates around walkable cities. On the contrary, the pattern "I need to transport an object to a service location" is less likely to be found in the training data as it requires multi-hop reasoning (goal → requirement → action) and depends on implicit world knowledge about physical constraints.
 
 The model is doing exactly what it was trained to do: match the most probable continuation given the surface-level prompt. It's just that probability ≠ pragmatic correctness.
 
-## What I Tried: Prompt Engineering Experiments
+### What I Tried: Prompt Engineering Experiments
 
 **Attempt 1: Explicit Goal Statement**
 
@@ -79,11 +79,11 @@ Before answering, identify:
 
 This works well by forcing the model to take specific reasoning steps. But, it is verbose, requires meta-prompting and doesn't feel like natural communication.
 
-## The Core Problem: Pattern Matching vs. Pragmatic Reasoning
+### The Core Problem: Pattern Matching vs. Pragmatic Reasoning
 
 We constantly use pragmatic reasoning in our day-to-day life and our brains naturally keep track of goals and sub-goals, physical constraints, temporal dependencies and causal requirements. LLMs, on the other hand, do pattern matching where they match surface-level linguistic patterns, retrieve the associated information and make statistically likely continuations. The problem arises when pragmatic correctness diverges from statistical likelihood.
 
-### Why Models Fail to Frame Questions Correctly
+#### Why Models Fail to Frame Questions Correctly
 
 This failure is related to a classic problem in AI philosophy: the **Frame Problem**<sup>[2](#ref-2)</sup>. How do you decide what is relevant and what's not?
 
@@ -93,13 +93,13 @@ Humans have a strong prior that if someone is asking you a question with such an
 
 This is also why explicit prompting helps because you are providing a correct frame that humans would naturally apply.
 
-### Does This Matter?
+#### Does This Matter?
 
 For everyday usage, this is slightly frustrating but easily addressed by user clarification. However, for AI safety, it could be important. We observe that LLMs miss obvious logical implications, do not understand goal-oriented reasoning and prioritize surface-level consistency over pragmatic correctness.
 
 If these models cannot understand "the car should be at the wash station" reliably, how confident are we in their reasoning about multi-step planning in complex environments, implicit constraints in critical decisions or goal alignment when goals are not explicitly defined?
 
-## What Would Actually Fix This?
+### What Would Actually Fix This?
 
 In the short term, prompt engineering provides immediate relief, as demonstrated in the experiments above. This is a band-aid solution which, although effective, requires manual intervention.
 
@@ -112,7 +112,7 @@ As I demonstrated earlier, the chain-of-thought prompt is essentially a manual v
 
 Long-term solutions require more fundamental changes to the architecture of LLMs. For instance, LLMs could serve as a front-end interface, providing a fast and natural "System 1" response to user queries and mapping them into a structured problem for a symbolic planner—a more laborious and deliberate "System 2" response<sup>[3](#ref-3)</sup>. Here, the LLM handles language understanding and a separate reasoning module would be responsible for goal-directed planning. This facilitates true multi-step reasoning that builds and manipulates world models rather than just pattern matching over text.
 
-## Conclusion
+### Conclusion
 
 The car wash problem is a toy example but it also highlights a key issue: **LLMs struggle with reasoning that involves following implicit causal chains through several steps.** Again, the issue here is not about the intelligence or capability of the models. It is about the difference between what is "obvious" to humans (pragmatic reasoning based on goals and intent) and what is "probable" to the models (statistical patterns in text). Of course, the model is not thinking in the human sense. But this behavioral failure is real and the model's reliance on surface-level statistical patterns to the exclusion of other information makes it a potential safety concern rather than a failure of anthropomorphized thought.
 

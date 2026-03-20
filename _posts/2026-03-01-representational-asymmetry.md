@@ -12,7 +12,7 @@ Ask one to explain how a sorting algorithm works. It will give you a textbook an
 
 The model did not suddenly become dumb. It was never doing what you thought it was doing.
 
-## Two Kinds of Knowing
+### Two Kinds of Knowing
 
 Philosophers have a useful distinction here. There is *knowing that* and *knowing how*.
 
@@ -28,7 +28,7 @@ So models become extraordinarily good at knowing that. And only partially good a
 
 I call this gap **Representational Asymmetry**: the systematic imbalance between a model's capacity to describe processes and its capacity to actually simulate them. The model builds rich declarative representations of the world from text. What it does not reliably build is the procedural machinery to act on them.
 
-## What This Looks Like in Practice
+### What This Looks Like in Practice
 
 Representational Asymmetry shows up in four consistent patterns.
 
@@ -42,7 +42,7 @@ Representational Asymmetry shows up in four consistent patterns.
 
 In each case the model sounds like it knows what it is doing. That is the problem. I call these failures **Hidden Absences**: breakdowns that are invisible from the surface of the output, detectable only when you test whether the model can *do* what it just described.
 
-## Why Scaling Does Not Fix This
+### Why Scaling Does Not Fix This
 
 The common assumption is that these failures will disappear as models get bigger. More parameters, more data, better answers.
 
@@ -52,7 +52,7 @@ If the gap exists because text is the medium of declarative knowledge and not pr
 
 This is not a complaint about current models. It is a structural observation about what the training objective is actually optimizing for. A larger model trained the same way is a more capable version of the same thing. It is not a different thing.
 
-## Why This Matters
+### Why This Matters
 
 Most AI failures are visible. The model refuses. It says something obviously wrong. It crashes.
 
@@ -62,7 +62,7 @@ This creates a specific kind of risk. People calibrate their trust based on how 
 
 A medical AI that explains drug mechanisms correctly but miscalculates interaction risk. A legal AI that produces perfect citation formatting but fabricates the ruling. A planning system that writes a convincing strategy but loses track of the constraints halfway through. These are not hypothetical edge cases. They are the predictable shape of Representational Asymmetry in deployment.
 
-## What Comes Next
+### What Comes Next
 
 The research questions here are concrete. Can we measure the gap between declarative and procedural competence with a single score comparable across domains? Can we locate where in a transformer this asymmetry lives? Does it narrow as models scale, or does it persist regardless of size?<sup><a href="#ref-3">3</a>,<a href="#ref-5">5</a></sup>
 
