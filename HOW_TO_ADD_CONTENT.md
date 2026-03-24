@@ -74,6 +74,34 @@ paper: https://paper-link.com
 
 Edit publications directly in `_pages/research.md` and `_includes/selected_papers.liquid` (homepage). Follow the existing HTML structure for each paper entry.
 
+## Art
+
+Add generative art pieces to `_data/art.yml`:
+
+```yaml
+items:
+  - title: "Art Piece Title"
+    slug: art-slug
+    thumbnail: /assets/img/art/thumbnail.gif
+```
+
+Place interactive sketches in `assets/art/<slug>/` with `index.html` and `sketch.js`.
+
+## Books
+
+Edit `_pages/books.md` to add book covers and reviews. Create book review posts in `_posts/` with:
+
+```yaml
+---
+layout: book-review
+title: "Book Title"
+author: "Author Name"
+date: 2026-03-01
+---
+
+Book review content.
+```
+
 ## Modifying Pages
 
 - **Homepage about section:** `_pages/about.md`

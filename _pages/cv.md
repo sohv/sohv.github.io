@@ -198,6 +198,7 @@ function exportCVToPDF() {
     <li>$1,500 Cohere Labs Catalyst Grant</li>
     <li>AWS AI&ML Scholarship 2026</li>
     <li>Amazon ML Summer School'26</li>
+    <li>BlueDot Impact Technical AI Safety Course</li>
   </ul>
 </div>
 </div>
