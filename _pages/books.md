@@ -33,23 +33,23 @@ I am mostly interested in non-fiction books related to self-improvement, psychol
     <img src="/assets/img/homosapiens.jpg" alt="Homo Sapiens" class="img-fluid">
   </div>
   <div class="col-md-3">
-    <img src="/assets/img/deepwork.jpg" alt="Deep Work" class="img-fluid">
+    <img src="/assets/img/alignment.jpg" alt="The Alignment Problem" class="img-fluid">
   </div>
-  <div class="col-md-3">
-    <img src="/assets/img/thinkinh.jpg" alt="Thinking, Fast and Slow" class="img-fluid">
-  </div>
+  
 </div>
 
 <h3 class="my-4">Planning to Read</h3>
 
 <div class="row mt-3">
   <div class="col-md-3">
-    <img src="/assets/img/super.jpg" alt="Superintelligence" class="img-fluid">
-  </div>
-  <div class="col-md-3">
     <img src="/assets/img/martian.jpg" alt="The Martian" class="img-fluid">
   </div>
+
+  <div class="col-md-3">
+    <img src="/assets/img/nick.jpg" alt="Superintelligence: Paths, Dangers, Strategies" class="img-fluid">
+  </div>
 </div>
+
 
 <h3 class="my-4">Read</h3>
 <div class="row mt-3">
@@ -58,5 +58,11 @@ I am mostly interested in non-fiction books related to self-improvement, psychol
   </div>
   <div class="col-md-3">
     <img src="/assets/img/atomic.jpg" alt="Atomic Habits" class="img-fluid">
+  </div>
+  <div class="col-md-3">
+    <img src="/assets/img/deepwork.jpg" alt="Deep Work" class="img-fluid">
+  </div>
+  <div class="col-md-3">
+    <img src="/assets/img/thinkinh.jpg" alt="Thinking, Fast and Slow" class="img-fluid">
   </div>
 </div>

@@ -1,0 +1,94 @@
+<div class="toggleable-quote-container">
+  <div class="quote-content">
+    <div class="quote-kannada" style="display: block;">
+      <blockquote>
+        <p>ಕರ್ಮಣ್ಯೇವಾಧಿಕಾರಸ್ತೇ ಮಾ ಫಲೇಷು ಕದಾಚನ |</p>
+        <footer>— ಭಗವದ್ ಗೀತೆ</footer>
+      </blockquote>
+    </div>
+    
+    <div class="quote-english" style="display: none;">
+      <blockquote>
+        <p>You have the right to work, but never to the fruit of work. Let not the fruit of action be your motive, nor let your attachment be to inaction.</p>
+        <footer>— Bhagavad Gita (English Translation)</footer>
+      </blockquote>
+    </div>
+  </div>
+  
+  <button class="translate-toggle" onclick="toggleQuoteLanguage(this)">
+    <span class="toggle-text">Translate to English</span>
+  </button>
+</div>
+
+<style>
+.toggleable-quote-container {
+  margin: 2rem 0;
+  padding: 0.8rem;
+  border-left: 4px solid var(--global-theme-color, #0a8cc0);
+  background-color: var(--global-bg-color-light, #f9f9f9);
+  border-radius: 4px;
+  max-width: 650px;
+}
+
+.quote-content {
+  margin-bottom: 0.5rem;
+}
+
+.translate-toggle {
+  float: right;
+  padding: 0.35rem 0.7rem;
+  margin: 0;
+  background-color: var(--global-theme-color, #0a8cc0);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.3s ease;
+}
+
+.translate-toggle:hover {
+  background-color: var(--global-theme-color-darker, #066a94);
+  opacity: 0.85;
+}
+
+.toggleable-quote-container blockquote {
+  margin: 0;
+  padding: 0.5rem 0;
+  font-style: italic;
+  color: var(--global-text-color, #333);
+}
+
+.toggleable-quote-container blockquote p {
+  margin: 0;
+  line-height: 1.3;
+}
+
+.toggleable-quote-container blockquote footer {
+  display: block;
+  margin-top: 0.2rem;
+  font-style: normal;
+  color: var(--global-text-color-muted, #666);
+  font-size: 0.85rem;
+}
+</style>
+
+<script>
+function toggleQuoteLanguage(button) {
+  const quoteContent = button.parentElement.querySelector('.quote-content');
+  const kannadaQuote = quoteContent.querySelector('.quote-kannada');
+  const englishQuote = quoteContent.querySelector('.quote-english');
+  
+  if (kannadaQuote.style.display === 'block') {
+    // Switch to English
+    kannadaQuote.style.display = 'none';
+    englishQuote.style.display = 'block';
+    button.querySelector('.toggle-text').textContent = 'Translate to Kannada';
+  } else {
+    // Switch to Kannada
+    kannadaQuote.style.display = 'block';
+    englishQuote.style.display = 'none';
+    button.querySelector('.toggle-text').textContent = 'Translate to English';
+  }
+}
+</script>

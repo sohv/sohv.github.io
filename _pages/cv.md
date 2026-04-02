@@ -178,9 +178,6 @@ function exportCVToPDF() {
   <strong>mlboardkit</strong> — A library for interpreting and analyzing transformer language models. <a href="https://pypi.org/project/mlboardkit/" style="color: var(--global-theme-color);">[PyPI]</a>
 </div>
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>FusionGraph</strong> — A multimodal RAG system that aggregates information from text and images into a unified knowledge source with knowledge graph-based reasoning. <a href="https://github.com/sohv/FusionGraph" style="color: var(--global-theme-color);">[Code]</a>
-</div>
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
   <strong>QueryMind</strong> — An AI agent for natural language to SQL query translation via MCP. <a href="https://github.com/sohv/QueryMind" style="color: var(--global-theme-color);">[Code]</a>
 </div>
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
