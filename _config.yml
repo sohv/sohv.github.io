@@ -7,7 +7,7 @@ first_name: Sohan
 middle_name: 
 last_name: Venkatesh
 contact_note: >
-  Email is the easiest way to contact me. Include the emoji 🐙 to get my quickest attention!
+  Email is the easiest way to contact me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal site of Sohan Venkatesh — research, projects, blog, and generative art.
 #footer_text: >

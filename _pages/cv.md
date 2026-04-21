@@ -124,17 +124,17 @@ function exportCVToPDF() {
 <div style="margin-bottom: 0.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
     <strong style="font-size: 0.9rem;">Research Intern</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">May — Oct 2025</span>
+    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Jan 2026 - Present</span>
   </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">IIIT Hyderabad</div>
+  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">IISc Bengaluru</div>
 </div>
 
 <div style="margin-bottom: 0.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong style="font-size: 0.9rem;">Software Developer</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Sep 2024 - Mar 2025</span>
+    <strong style="font-size: 0.9rem;">Research Intern</strong>
+    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">May — Oct 2025</span>
   </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">Application Development Cell, MIT-BLR</div>
+  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">IIIT Hyderabad</div>
 </div>
 
 <div style="margin-bottom: 0.5rem;">
@@ -162,8 +162,35 @@ function exportCVToPDF() {
   <strong>S. Venkatesh</strong>, A. M. Kurapath. "On the Non-Identifiability of Steering Vectors in Large Language Models." <em>ICLR Re-Align Workshop</em>, 2026. <a href="https://arxiv.org/abs/2602.06801" style="color: var(--global-theme-color);">[Paper]</a> <a href="https://github.com/sohv/non-identifiability" style="color: var(--global-theme-color);">[Code]</a> <button onclick="openVideoModal('7_pk2iE5JLo', 'On the Non-Identifiability of Steering Vectors')" style="color: var(--global-theme-color); background: none; border: none; cursor: pointer; padding: 0; font-size: 0.9rem; font-weight: bold;">[Video]</button>
 </div>
 
+<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
+  <strong>S. Venkatesh</strong>, A. M. Kurapath, T. Melkote. "Large Language Models are Algorithmically Blind." <em>Preprint Under Review</em>. <a href="https://arxiv.org/abs/2602.21947" style="color: var(--global-theme-color);">[Paper]</a> <a href="https://github.com/sohv/algorithmic-blindness" style="color: var(--global-theme-color);">[Code]</a> <button onclick="openVideoModal('OmJK0GK8_MI', 'Large Language Models are Algorithmically Blind')" style="color: var(--global-theme-color); background: none; border: none; cursor: pointer; padding: 0; font-size: 0.9rem; font-weight: bold;">[Video]</button>
+</div>
+
 <div style="margin-bottom: 0; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>, A. M. Kurapath, T. Melkote. "Large Language Models are Algorithmically Blind." <em>Preprint</em>, 2026. <a href="https://arxiv.org/abs/2602.21947" style="color: var(--global-theme-color);">[Paper]</a> <a href="https://github.com/sohv/algorithmic-blindness" style="color: var(--global-theme-color);">[Code]</a> <button onclick="openVideoModal('OmJK0GK8_MI', 'Large Language Models are Algorithmically Blind')" style="color: var(--global-theme-color); background: none; border: none; cursor: pointer; padding: 0; font-size: 0.9rem; font-weight: bold;">[Video]</button>
+  <strong>S. Venkatesh</strong>. "Architecture, Not Scale: Circuit Localization in Large Language Models." <em>Preprint Under Review</em>.
+</div>
+</div>
+
+</div>
+
+<!-- Research -->
+<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
+<h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-microscope" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Research</h2>
+
+<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
+  <strong>Do LLMs Actually Feel Happy for You?</strong> — A mechanistic look at how LLMs process emotional context. <a href="https://sohanvenkatesh.substack.com/p/do-llms-actually-feel-happy-for-you" style="color: var(--global-theme-color);">[Blog]</a>
+</div>
+
+<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
+  <strong>Is Alignment Faking Generalizable?</strong> — Analyzed cross-architecture transfer of adversarial prompts in Transformer and MoE models. <a href="https://github.com/sohv/alignment-faking-transfers" style="color: var(--global-theme-color);">[Code]</a>
+</div>
+
+<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
+  <strong>Representational Asymmetry in LLMs</strong> — A systematic imbalance between a model’s capacity to describe processes and its capacity to actually simulate them. <a href="https://sohv.github.io/blog/representational-asymmetry/" style="color: var(--global-theme-color);">[Blog]</a>
+</div>
+
+<div style="margin-bottom: 0rem; font-size: 0.9rem;">
+  <strong>Prisoner's Dilemma in LLMs</strong> — Ran experiments across three different LLMs with personality variations to study cooperation and behavioral divergence. <a href="#" style="color: var(--global-theme-color);">[Blog]</a>
 </div>
 </div>
 
@@ -175,13 +202,14 @@ function exportCVToPDF() {
   <strong>anada</strong> — A lightweight, terminal-first note-taking tool with Markdown support and bi-directional linking. <a href="https://pypi.org/project/anada/" style="color: var(--global-theme-color);">[PyPI]</a>
 </div>
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>mlboardkit</strong> — A library for interpreting and analyzing transformer language models. <a href="https://pypi.org/project/mlboardkit/" style="color: var(--global-theme-color);">[PyPI]</a>
+  <strong>mlboardkit</strong> — A library for streamlining ML workflows through utilities for data analysis, model training and evaluation. <a href="https://pypi.org/project/mlboardkit/" style="color: var(--global-theme-color);">[PyPI]</a>
 </div>
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
   <strong>QueryMind</strong> — An AI agent for natural language to SQL query translation via MCP. <a href="https://github.com/sohv/QueryMind" style="color: var(--global-theme-color);">[Code]</a>
 </div>
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>MCRAG</strong> — A multi-code review and generation system. <a href="https://github.com/sohv/mcrag" style="color: var(--global-theme-color);">[Code]</a>
+  <strong>MCRAG</strong> — A multi-code review and generation system. <a href="https://github.com/sohv/mcrag" style="color: var(--global-theme-color);">[Code]</a> <a href="https://www.youtube.com/watch?v=KhGWROcu3xE" style="color: var(--global-theme-color);">[Video]</a>
+
 </div>
 </div>
 
@@ -192,10 +220,12 @@ function exportCVToPDF() {
 
 <div style="margin-bottom: 0; font-size: 0.9rem;">
   <ul style="padding-left: 1.2rem; margin-bottom: 0;">
+    <li> $700 BlueDot Impact grant for CoT faithfulness research</li>
     <li>$1,500 Cohere Labs Catalyst Grant</li>
-    <li>AWS AI&ML Scholarship 2026</li>
-    <li>Amazon ML Summer School'26</li>
     <li>BlueDot Impact Technical AI Safety Course</li>
+    <li>Amazon ML Summer School'26</li>
+    <li>AWS AI&ML Scholarship 2026</li>
+
   </ul>
 </div>
 </div>
@@ -207,12 +237,8 @@ function exportCVToPDF() {
 <div style="margin-bottom: 0; font-size: 0.9rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 0.4rem;">
   <div>
-    <strong>Reviewer</strong> — ICLR Re-Align and CAO Workshops 2026
+    <strong>Reviewer</strong> — COLM 2026, ACL TrustNLP 2026, ICLR Re-Align and CAO Workshops 2026
   </div>
-  <span style="color: var(--global-text-color-light); white-space: nowrap;">
-    (Feb'26)
-  </span>
-</div>
 </div>
 </div>
 
