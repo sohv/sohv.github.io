@@ -17,6 +17,12 @@ pagination:
     after: 3 # The number of links after the current page
 ---
 
+<div style="background-color: rgba(85, 179, 216, 0.1); border-left: 4px solid #55b3d8; padding: 1rem; margin-bottom: 2rem; border-radius: 4px;">
+  <p style="margin: 0; font-size: 0.9rem; color: var(--global-text-color);">
+    <strong>Note (April 28, 2026):</strong> I'll now be sharing my latest work and thoughts on <a href="https://sohanvenkatesh.substack.com" style="color: #55b3d8; text-decoration: none; font-weight: 500;">Substack</a>. Subscribe if you find my posts useful. The blog posts below remain archived here.
+  </p>
+</div>
+
 <div class="post">
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}

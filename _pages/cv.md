@@ -121,6 +121,7 @@ function exportCVToPDF() {
 <div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-briefcase" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Experience</h2>
 
+<!--
 <div style="margin-bottom: 0.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
     <strong style="font-size: 0.9rem;">Research Intern</strong>
@@ -128,6 +129,7 @@ function exportCVToPDF() {
   </div>
   <div style="color: var(--global-text-color-light); font-size: 0.9rem;">IISc Bengaluru</div>
 </div>
+-->
 
 <div style="margin-bottom: 0.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
@@ -159,15 +161,23 @@ function exportCVToPDF() {
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-book" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Publications</h2>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>, A. M. Kurapath. "On the Non-Identifiability of Steering Vectors in Large Language Models." <em>ICLR Re-Align Workshop</em>, 2026. <a href="https://arxiv.org/abs/2602.06801" style="color: var(--global-theme-color);">[Paper]</a> <a href="https://github.com/sohv/non-identifiability" style="color: var(--global-theme-color);">[Code]</a> <button onclick="openVideoModal('7_pk2iE5JLo', 'On the Non-Identifiability of Steering Vectors')" style="color: var(--global-theme-color); background: none; border: none; cursor: pointer; padding: 0; font-size: 0.9rem; font-weight: bold;">[Video]</button>
+  <strong>S. Venkatesh</strong>, A. M. Kurapath. "On the Non-Identifiability of Steering Vectors in Large Language Models." <em>ICLR Re-Align Workshop</em>, 2026. <a href="https://arxiv.org/abs/2602.06801" style="color: var(--global-theme-color);">[Paper]</a>
 </div>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>, A. M. Kurapath, T. Melkote. "Large Language Models are Algorithmically Blind." <em>Preprint Under Review</em>. <a href="https://arxiv.org/abs/2602.21947" style="color: var(--global-theme-color);">[Paper]</a> <a href="https://github.com/sohv/algorithmic-blindness" style="color: var(--global-theme-color);">[Code]</a> <button onclick="openVideoModal('OmJK0GK8_MI', 'Large Language Models are Algorithmically Blind')" style="color: var(--global-theme-color); background: none; border: none; cursor: pointer; padding: 0; font-size: 0.9rem; font-weight: bold;">[Video]</button>
+  <strong>S. Venkatesh</strong>, A. M. Kurapath, T. Melkote. "Large Language Models are Algorithmically Blind." <em>Preprint Under Review</em>. <a href="https://arxiv.org/abs/2602.21947" style="color: var(--global-theme-color);">[Paper]</a>
 </div>
 
-<div style="margin-bottom: 0; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>. "Architecture, Not Scale: Circuit Localization in Large Language Models." <em>Preprint Under Review</em>.
+<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
+  <strong>S. Venkatesh</strong>. "Architecture, Not Scale: Circuit Localization in Large Language Models." <em>Preprint Under Review</em>. . <a href="https://arxiv.org/abs/2605.08853" style="color: var(--global-theme-color);">[Paper]</a>
+</div>
+
+<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
+  <strong>S. Venkatesh</strong>. "Negative Before Positive: Asymmetric Valence Processing in Large Language Models." <em>Preprint Under Review</em>. . <a href="https://arxiv.org/abs/2605.05653" style="color: var(--global-theme-color);">[Paper]</a>
+</div>
+
+<div style="margin-bottom: 0rem; font-size: 0.9rem;">
+  <strong>S. Venkatesh</strong>. "Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs." <em>Preprint Under Review</em>. . <a href="https://arxiv.org/abs/2605.09239" style="color: var(--global-theme-color);">[Paper]</a>
 </div>
 </div>
 

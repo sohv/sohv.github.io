@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI researcher, Developer, Student
+subtitle: Student and Independent Researcher
 
 profile:
   align: right
@@ -23,9 +23,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey there! I'm Sohan. I'm currently a 4th year undergraduate student at <a href="https://www.manipal.edu/mu/campuses/mahe-bengaluru/academics/institution-list/mitblr.html">Manipal Institute of Technology</a> studying Computer Science with a specialization in Artificial Intelligence.
+Hey there! I'm Sohan. I'm currently a 4th year undergraduate student at Manipal Institute of Technology Bengaluru studying Computer Science.
 
-My research interests focus on understanding LLM capabilties, interpretability of LLMs, <a href="https://safe.ai/blog/representation-engineering-a-new-way-of-understanding-models">representation engineering</a>, AI safety and alignment. I have worked on various projects in these areas including my papers on steering vectors and on algorithmic capabilities of LLMs. You can find more about my research work <a href="https://sohv.github.io/research/">here</a>. 
-<!--I'm also interested in neuro-symbolic reasoning and causality as methods and lenses to support my interests in understanding and controlling model representations for safety and interpretability.-->
+I mainly work on understanding large language models capabilities and their internal representations with a specific focus on AI safety and control. I have worked on various projects in these areas including my papers on steering vectors and on mechanistic interpretability. You can find more about my research work <a href="https://sohv.github.io/research/">here</a>. 
 
-I've also worked on various interesting <a href="https://sohv.github.io/projects/">technical projects</a> across LLMs, machine learning and knowledge graphs. Feel free to reach out to me via email if you find my work interesting!
+I have also worked on interesting <a href="https://sohv.github.io/projects/">technical projects</a> across LLMs, machine learning and knowledge graphs. Feel free to reach out to me via email if you find my work interesting!
