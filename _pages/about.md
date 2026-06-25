@@ -25,6 +25,6 @@ latest_posts:
 
 Hey there! I'm Sohan. I'm currently a 4th year undergraduate student at Manipal Institute of Technology Bengaluru studying Computer Science.
 
-I mainly work on understanding large language models capabilities and their internal representations with a specific focus on AI safety and control. I have worked on various projects in these areas including my papers on steering vectors and on mechanistic interpretability. You can find more about my research work <a href="https://sohv.github.io/research/">here</a>. 
+I mainly work on AI safety and interpretability with the goal of reducing catastrophic risks caused by AI systems. To that end, I have worked on various projects including my recent papers on steering vectors and on mechanistic interpretability. You can find more about my research work <a href="https://sohv.github.io/research/">here</a>. 
 
-I have also worked on interesting <a href="https://sohv.github.io/projects/">technical projects</a> across LLMs, machine learning and knowledge graphs. Feel free to reach out to me via email if you find my work interesting!
+Feel free to reach out to me via email if you find my work interesting!

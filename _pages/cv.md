@@ -192,6 +192,7 @@ function exportCVToPDF() {
   <div style="color: var(--global-text-color-light); font-size: 0.9rem;">IIIT Hyderabad</div>
 </div>
 
+
 <div style="margin-bottom: 0.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
     <strong style="font-size: 0.9rem;">AI Fellow</strong>
