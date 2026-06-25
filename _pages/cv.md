@@ -17,6 +17,17 @@ nav_order: 4
   </div>
 </div>
 
+<!-- PDF Modal -->
+<div id="pdfModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center;">
+  <div style="background: white; padding: 1rem; border-radius: 8px; max-width: 900px; width: 92%; height: 90vh; position: relative; display: flex; flex-direction: column; gap: 0.75rem; box-sizing: border-box; overflow: hidden;">
+    <button onclick="closePdfModal()" style="position: absolute; top: 10px; right: 15px; background: none; border: none; font-size: 28px; cursor: pointer; color: var(--global-text-color);">&times;</button>
+    <p id="pdfTitle" style="margin: 0 2rem 0 0; font-weight: bold; color: var(--global-text-color);"></p>
+    <div style="flex: 1; min-height: 0; overflow: hidden;">
+      <iframe id="pdfFrame" style="width: 100%; height: 100%; border: none; border-radius: 4px;" src=""></iframe>
+    </div>
+  </div>
+</div>
+
 <script>
 function openVideoModal(videoId, title) {
   document.getElementById('youtubePlayer').src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
@@ -31,12 +42,32 @@ function closeVideoModal() {
   document.body.style.overflow = 'auto';
 }
 
+function openPdfModal(pdfUrl, title) {
+  document.getElementById('pdfFrame').src = pdfUrl;
+  document.getElementById('pdfTitle').textContent = title;
+  document.getElementById('pdfModal').style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closePdfModal() {
+  document.getElementById('pdfFrame').src = '';
+  document.getElementById('pdfModal').style.display = 'none';
+  document.body.style.overflow = 'auto';
+}
+
 document.getElementById('videoModal').addEventListener('click', function(e) {
   if (e.target === this) closeVideoModal();
 });
 
+document.getElementById('pdfModal').addEventListener('click', function(e) {
+  if (e.target === this) closePdfModal();
+});
+
 document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeVideoModal();
+  if (e.key === 'Escape') {
+    closeVideoModal();
+    closePdfModal();
+  }
 });
 
 function exportCVToPDF() {
@@ -54,6 +85,15 @@ function exportCVToPDF() {
 </script>
 
 <style>
+  #pdfModal > div {
+    height: 90vh;
+    overflow: hidden;
+  }
+
+  #pdfModal iframe {
+    display: block;
+  }
+
 @media print {
   .cv-section {
     page-break-inside: avoid;
@@ -73,6 +113,9 @@ function exportCVToPDF() {
   #achievementsSection {
     page-break-before: always;
     page-break-inside: avoid;
+  }
+  #rejectionsSection {
+    display: none !important;
   }
 }
 </style>
@@ -108,6 +151,14 @@ function exportCVToPDF() {
 <div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-graduation-cap" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Education</h2>
 
+<div style="margin-bottom: 0.6rem; padding-bottom: 0rem;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+    <strong>MSc in Machine Learning*</strong>
+    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Oct 2026 —</span>
+  </div>
+  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">University of Tübingen</div>
+</div>
+
 <div style="margin-bottom: 0rem; padding-bottom: 0rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
     <strong>B.Tech in Computer Science (AI Specialization)</strong>
@@ -115,6 +166,8 @@ function exportCVToPDF() {
   </div>
   <div style="color: var(--global-text-color-light); font-size: 0.9rem;">Manipal Institute of Technology, Bengaluru</div>
 </div>
+
+<p style="margin: 0.6rem 0 0 0; font-size: 0.8rem; color: var(--global-text-color-light);">* Upcoming</p>
 </div>
 
 <!-- Experience -->
@@ -162,23 +215,28 @@ function exportCVToPDF() {
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
   <strong>S. Venkatesh</strong>, A. M. Kurapath. "On the Non-Identifiability of Steering Vectors in Large Language Models." <em>Representational Alignment Workshop at ICLR 2026</em>. <a href="https://arxiv.org/abs/2602.06801" style="color: var(--global-theme-color);">[Paper]</a>
+  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster1.pdf' | relative_url }}', 'Poster: On the Non-Identifiability of Steering Vectors in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
 </div>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
   <strong>S. Venkatesh</strong>. "Architecture, Not Scale: Circuit Localization in Large Language Models." <em>Mechanistic Interpretability Workshop at ICML 2026</em>. <a href="https://arxiv.org/abs/2605.08853" style="color: var(--global-theme-color);">[Paper]</a>
+  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster2.pdf' | relative_url }}', 'Poster: Architecture, Not Scale: Circuit Localization in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
 </div>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
   <strong>S. Venkatesh</strong>. "Negative Before Positive: Asymmetric Valence Processing in Large Language Models." <em>Mechanistic Interpretability Workshop at ICML 2026</em>. <a href="https://arxiv.org/abs/2605.05653" style="color: var(--global-theme-color);">[Paper]</a>
+  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster3.pdf' | relative_url }}', 'Poster: Negative Before Positive: Asymmetric Valence Processing in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
 </div>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
   <strong>S. Venkatesh</strong>. "Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs." <em>Preprint</em>. <a href="https://arxiv.org/abs/2605.09239" style="color: var(--global-theme-color);">[Paper]</a>
 </div>
 
+<!--
 <div style="margin-bottom: 0rem; font-size: 0.9rem;">
   <strong>S. Venkatesh</strong>, A. M. Kurapath, T. Melkote. "Large Language Models are Algorithmically Blind." <em>Preprint</em>. <a href="https://arxiv.org/abs/2602.21947" style="color: var(--global-theme-color);">[Paper]</a>
 </div>
+-->
 
 </div>
 
@@ -210,11 +268,20 @@ function exportCVToPDF() {
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-code" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Projects</h2>
 
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
+  <strong>nanoKimi</strong> — A minimzed implementation of Kimi-K2 with custom Muon optimizer and latent attention mechanism. <a href="https://github.com/sohv/nanokimi" style="color: var(--global-theme-color);">[Code]</a>
+</div>
+
+
+<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
   <strong>anada</strong> — A lightweight, terminal-first note-taking tool with Markdown support and bi-directional linking. <a href="https://pypi.org/project/anada/" style="color: var(--global-theme-color);">[PyPI]</a>
 </div>
+
+<!--
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
   <strong>mlboardkit</strong> — A library for streamlining ML workflows through utilities for data analysis, model training and evaluation. <a href="https://pypi.org/project/mlboardkit/" style="color: var(--global-theme-color);">[PyPI]</a>
 </div>
+-->
+
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
   <strong>QueryMind</strong> — An AI agent for natural language to SQL query translation via MCP. <a href="https://github.com/sohv/QueryMind" style="color: var(--global-theme-color);">[Code]</a>
 </div>
@@ -237,6 +304,21 @@ function exportCVToPDF() {
     <li>Amazon ML Summer School'26</li>
     <li>AWS AI&ML Scholarship 2026</li>
 
+  </ul>
+</div>
+</div>
+
+<!-- Rejections & Milestones -->
+<div id="rejectionsSection" style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
+<h2 style="margin-top: 0; margin-bottom: 0.4rem; font-size: 1.3rem;"><i class="fa-solid fa-flag" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Selected Rejections</h2>
+<!--<p style="margin: 0 0 0.8rem 0; font-size: 0.8rem; color: var(--global-text-color-light); font-style: italic;">In highly selective environments, the evaluation process itself is an honor. I list these to maintain transparency regarding my research trajectory.</p>-->
+
+<div style="font-size: 0.9rem;">
+  <ul style="padding-left: 1.2rem; margin-bottom: 0;">
+    <li style="margin-bottom: 0.5rem;"><strong>Anthropic Fellowship (2026):</strong> Final stage rejection; scored ≥500/600 on both coding and debugging assessments.</li>
+    <li style="margin-bottom: 0.5rem;"><strong>MARS Fellowship (2026):</strong> Rejected at final selection interview.</li>
+    <li style="margin-bottom: 0.5rem;"><strong>Pivotal Fellowship (2026):</strong> Rejected at final selection interview.</li>
+    <li style="margin-bottom: 0;"><strong>Center on Long-Term Risk (CLR) SRF (2026):</strong> Final stage rejection.</li>
   </ul>
 </div>
 </div>
