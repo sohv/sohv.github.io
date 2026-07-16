@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "ComplyGraph"
-description: A prototype that evaluates the financial compliance of a transaction against a set of rules stored in Neo4j database using semantic search + rule-based system.
+description: A prototype that evaluates the financial compliance of a transaction against rules stored in Neo4j database using hybrid search+rule-based system.
 importance: 3
 github: https://github.com/sohv/complygraph
 ---

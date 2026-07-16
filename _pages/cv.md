@@ -252,15 +252,15 @@ function exportCVToPDF() {
 </div>
 
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>Is Alignment Faking Generalizable?</strong> — Analyzed cross-architecture transfer of adversarial prompts in Transformer and MoE models. <a href="https://github.com/sohv/alignment-faking-transfers" style="color: var(--global-theme-color);">[Code]</a>
+  <strong>Inverse Scaling in CoT faithfulness</strong> — Showed unfaithfulness in larger LLMs is a capability artifact after controlling for accuracy. <a href="https://github.com/sohv/inverse-scaling-cot" style="color: var(--global-theme-color);">[Code]</a>
 </div>
 
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>Representational Asymmetry in LLMs</strong> — A systematic imbalance between a model’s capacity to describe processes and its capacity to actually simulate them. <a href="https://sohv.github.io/blog/representational-asymmetry/" style="color: var(--global-theme-color);">[Blog]</a>
+  <strong>Election Safety Benchmark</strong> — Pilot benchmark for testing if LLMs give voters accurate election information.  <a href="https://github.com/sohv/voter-eval" style="color: var(--global-theme-color);">[Code]</a>
 </div>
 
 <div style="margin-bottom: 0rem; font-size: 0.9rem;">
-  <strong>Prisoner's Dilemma in LLMs</strong> — Ran experiments across three different LLMs with personality variations to study cooperation and behavioral divergence. <a href="#" style="color: var(--global-theme-color);">[Blog]</a>
+  <strong>Prisoner's Dilemma in LLMs</strong> — Analyzed three different LLMs with personality variations to study their behavior and cooperation. <a href="https://github.com/sohv/cooperate-or-defect" style="color: var(--global-theme-color);">[Code]</a>
 </div>
 </div>
 
@@ -276,12 +276,6 @@ function exportCVToPDF() {
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
   <strong>anada</strong> — A lightweight, terminal-first note-taking tool with Markdown support and bi-directional linking. <a href="https://pypi.org/project/anada/" style="color: var(--global-theme-color);">[PyPI]</a>
 </div>
-
-<!--
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>mlboardkit</strong> — A library for streamlining ML workflows through utilities for data analysis, model training and evaluation. <a href="https://pypi.org/project/mlboardkit/" style="color: var(--global-theme-color);">[PyPI]</a>
-</div>
--->
 
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
   <strong>QueryMind</strong> — An AI agent for natural language to SQL query translation via MCP. <a href="https://github.com/sohv/QueryMind" style="color: var(--global-theme-color);">[Code]</a>
@@ -309,10 +303,9 @@ function exportCVToPDF() {
 </div>
 </div>
 
-<!-- Rejections & Milestones -->
+<!-- Rejections & Milestones
 <div id="rejectionsSection" style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
 <h2 style="margin-top: 0; margin-bottom: 0.4rem; font-size: 1.3rem;"><i class="fa-solid fa-flag" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Selected Rejections</h2>
-<!--<p style="margin: 0 0 0.8rem 0; font-size: 0.8rem; color: var(--global-text-color-light); font-style: italic;">In highly selective environments, the evaluation process itself is an honor. I list these to maintain transparency regarding my research trajectory.</p>-->
 
 <div style="font-size: 0.9rem;">
   <ul style="padding-left: 1.2rem; margin-bottom: 0;">
@@ -323,6 +316,7 @@ function exportCVToPDF() {
   </ul>
 </div>
 </div>
+-->
 
 <!-- Volunteering -->
 <div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Word Embeddings from Scratch
-description: Generated word embeddings, evaluated GloVe and Word2Vec embeddings, aligned English–Hindi embeddings via Procrustes and analyzed race and gender bias using WEAT test.
-img: assets/img/word.png
-importance: 2
-github: https://github.com/sohv/word-embeddings
+title: Inverse Scaling in Chain-of-Thought Faithfulness
+description: A study of whether CoT reasoning faithfulness decreases as model scale increases, tested across 11 open-weight Llama and Qwen models.
+img: assets/img/cause.png
+importance: 1
+github: https://github.com/sohv/inverse-scaling-cot
 ---
 
 # Research Project Details

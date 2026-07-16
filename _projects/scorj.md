@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Scorj: Evaluate your job-fit"
-description: This tool scores your resume against a job description out of 100 and generates a detailed feedback highlighting your fit and suitability for the role. It is currently being extended to support multilingual resumes, thanks to a grant from Cohere Labs.
+description: A tool to score your resume-job fit out of 100 and generate a detailed feedback about your alignment with the job.
 
 importance: 2
 github: https://github.com/sohv/scorj
