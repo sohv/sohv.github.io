@@ -151,23 +151,13 @@ function exportCVToPDF() {
 <div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-graduation-cap" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Education</h2>
 
-<div style="margin-bottom: 0.6rem; padding-bottom: 0rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong>MSc in Machine Learning*</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Oct 2026 —</span>
-  </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">University of Tübingen</div>
-</div>
-
 <div style="margin-bottom: 0rem; padding-bottom: 0rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong>B.Tech in Computer Science (AI Specialization)</strong>
+    <strong>Bachelor of Technology, Computer Science</strong>
     <span style="color: var(--global-text-color-light); font-size: 0.85rem;">2022 — 2026</span>
   </div>
   <div style="color: var(--global-text-color-light); font-size: 0.9rem;">Manipal Institute of Technology, Bengaluru</div>
 </div>
-
-<p style="margin: 0.6rem 0 0 0; font-size: 0.8rem; color: var(--global-text-color-light);">* Upcoming</p>
 </div>
 
 <!-- Experience -->
@@ -183,6 +173,14 @@ function exportCVToPDF() {
   <div style="color: var(--global-text-color-light); font-size: 0.9rem;">IISc Bengaluru</div>
 </div>
 -->
+
+<div style="margin-bottom: 0.5rem;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+    <strong style="font-size: 0.9rem;">Research Fellow</strong>
+    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Jul 2026 - Present</span>
+  </div>
+  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">LASR Labs</div>
+</div>
 
 <div style="margin-bottom: 0.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
@@ -294,8 +292,8 @@ function exportCVToPDF() {
 <div style="margin-bottom: 0; font-size: 0.9rem;">
   <ul style="padding-left: 1.2rem; margin-bottom: 0;">
     <li> $700 BlueDot Impact grant for CoT faithfulness research</li>
+    <li> $2,800 Travel Grant for ICLR 2026</li>
     <li>$1,500 Cohere Labs Catalyst Grant</li>
-    <li>BlueDot Impact Technical AI Safety Course</li>
     <li>Amazon ML Summer School'26</li>
     <li>AWS AI&ML Scholarship 2026</li>
 
