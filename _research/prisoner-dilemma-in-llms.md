@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Prisoner's Dilemma in LLMs
-description: Tested cooperation and defection behaviors across three LLMs through 20-round iterated Prisoner's Dilemma simulations. 
+description: Tested cooperation and defection behaviors among 7 frontier LLMs in a Prisoner's Dilemma scenario.
 importance: 2
-github: https://github.com/sohv/cooperate-or-defect
+github: https://github.com/sohv/prisoners-dilemma
 ---
