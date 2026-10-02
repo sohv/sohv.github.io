@@ -22,8 +22,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey there! I'm Sohan. I'm currently a research fellow at LASR Labs and am based in London. 
+Hey there! I'm Sohan. I'm currently a research fellow at LASR Labs working with Bartosz Cywinski (Google DeepMind). 
 
-I mainly work on AI safety and interpretability with the goal of reducing catastrophic risks caused by AI systems. To that end, I have previously worked on various projects including my recent papers on steering vectors and on mechanistic interpretability. You can find more about my research work <a href="https://sohv.github.io/research/">here</a>. Feel free to email me if you find my work interesting!
+I work on AI safety and interpretability with the goal of reducing catastrophic risks caused by AI systems. To that end, I have previously worked on various projects including my recent papers on steering vectors and on mechanistic interpretability. Feel free to email me if you find my work interesting!
 
 I'm motivated by <a href="https://www.effectivealtruism.org/" target="_blank">effective altruism</a> and I see AI safety as the most altruistic use of my technical skills. Outside of work/research, you will often find me reading, ranting about AI risks or going down Wikipedia rabbit holes at 2am (<i>try it</i> — follow the first link on any Wikipedia article 20 times and you'll always end up on 'Philosophy'). 
