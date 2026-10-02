@@ -1,21 +1,21 @@
 <div class="publications" style="margin-top: 1rem;">
 
 <!-- Paper 1 -->
-<div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem; align-items: flex-start;">
-  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.9rem; border-radius: 4px; font-weight: bold; white-space: nowrap; min-width: 130px; text-align: center; font-size: 0.85rem;">Re-Align@ICLR</div>
+<div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
+  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">Re-Align@ICLR</div>
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">On the Non-Identifiability of Steering Vectors in Large Language Models</h3>
     <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong>, Ashish Mahendran Kurapath</p>
-    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Accepted at the Representational Alignment Workshop, ICLR 2026</p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Representational Alignment Workshop at ICLR 2026</p>
     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
-      <button onclick="var a=document.getElementById('abs-selected'),c=document.getElementById('cite-selected');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
-      <button onclick="var a=document.getElementById('abs-selected'),c=document.getElementById('cite-selected');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
+      <button onclick="var a=document.getElementById('abs1'),c=document.getElementById('cite1');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
+      <button onclick="var a=document.getElementById('abs1'),c=document.getElementById('cite1');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
       <a href="https://arxiv.org/abs/2602.06801" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
     </div>
-    <div id="abs-selected" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
+    <div id="abs1" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
       <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Activation steering methods are widely used to control large language model (LLM) behavior and are often interpreted as revealing meaningful internal representations. This interpretation assumes that steering directions are identifiable and uniquely recoverable from input-output behavior. We show that, under white-box single-layer access, steering vectors are fundamentally non-identifiable due to large equivalence classes of behaviorally indistinguishable interventions. Empirically, we find that orthogonal perturbations achieve near-equivalent efficacy with negligible effect sizes across multiple models and traits. Critically, we show that non-identifiability is a robust geometric property that persists across diverse prompt distributions. These findings reveal fundamental interpretability limits and highlight the need for structural constraints beyond behavioral testing to enable reliable alignment interventions.</p>
     </div>
-    <div id="cite-selected" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
+    <div id="cite1" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
       <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@article{venkatesh2026non,
   title={On the Non-Identifiability of Steering Vectors in Large Language Models},
   author={Venkatesh, Sohan and Mahendran Kurapath, Ashish},
@@ -27,13 +27,15 @@
   </div>
 </div>
 
-<!-- Paper 2 -->
+
+
+
 <div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
-  <div style="background: #888; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; min-width: 120px; text-align: center; font-size: 0.85rem;">MechInterp</div>
+  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">MechInterp</div>
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Architecture, Not Scale: Circuit Localization in Large Language Models</h3>
     <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong></p>
-    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Accepted at the Mechanistic Interpretability Workshop, ICML 2026</p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Mechanistic Interpretability Workshop at ICML 2026</p>
     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
       <button onclick="var a=document.getElementById('abs3'),c=document.getElementById('cite3');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
       <button onclick="var a=document.getElementById('abs3'),c=document.getElementById('cite3');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
@@ -56,13 +58,17 @@
   </div>
 </div>
 
-<!-- Paper 3 -->
+
+
+
+
+
 <div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
-  <div style="background: #888; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; min-width: 120px; text-align: center; font-size: 0.85rem;">MechInterp</div>
+  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">MechInterp</div>
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Negative Before Positive: Asymmetric Valence Processing in Large Language Models</h3>
     <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong></p>
-    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Accepted at the Mechanistic Interpretability Workshop, ICML 2026</p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Mechanistic Interpretability Workshop at ICML 2026</p>
     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
       <button onclick="var a=document.getElementById('abs4'),c=document.getElementById('cite4');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
       <button onclick="var a=document.getElementById('abs4'),c=document.getElementById('cite4');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
@@ -77,6 +83,79 @@
   author={Venkatesh, Sohan},
   journal={arXiv preprint arXiv:2605.05653},
   year={2026}
+}</pre>
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
+  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">AIWILD</div>
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Where Empathy Goes Wrong: Emotional Appeals Compromise AI-to-AI Oversight</h3>
+    <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong>, Thomas Jiralerspong, Flemming Kondrup</p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Agents in the Wild Workshop at NeurIPS 2026</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+      <button onclick="var a=document.getElementById('abs7'),c=document.getElementById('cite7');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
+      <button onclick="var a=document.getElementById('abs7'),c=document.getElementById('cite7');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
+      <a href="https://drive.google.com/file/d/1TpyRoCZ0UHEfdh-bzhkr5fvCN65UV-Rp/view?usp=sharing" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
+    </div>
+    <div id="abs7" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
+      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Large language model (LLM) monitors increasingly oversee other AI systems and decide whether their work is good enough to continue in production. Prior work shows these monitors exhibit peer preservation under pressure, studies deliberate attacks on monitors and documents prompt sensitivity in judges. None of it tests what happens when the graded party itself changes how it presents its own failure. We ask whether an emotional distress signal from the graded party pushes leniency further, even when that party is not a peer at all. We show that a monitor’s score for identical work rises when the graded party expresses distress about failing. For the monitor that was most affected, we varied how hard the pass or fail bar was to clear and observed that the distress signal flipped a failing peer to passing the bar but was ineffective for a peer that had already cleared the bar. The effect also holds across substitutions of the graded party’s identity, including a rival vendor’s model, an unnamed agent and a human contractor. A neutrality instruction eliminates the effect but this comes at a cost of the monitor ignoring the threshold and task dropout getting tripled. More broadly, our work motivates further study of emotional vulnerabilities in AI oversight since a monitor that is affected by how a failure is described cannot be trusted to enforce a threshold.</p>
+    </div>
+    <div id="cite7" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
+      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">Citation coming soon.</pre>
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
+  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">AIMS@COLM</div>
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Algorithmic Blindness in Large Language Models: A Calibration Study of Performance Prediction</h3>
+    <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong>, Ashish Mahendran Kurapath, Tejas Melkote</p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">AI Measurement Science Workshop at COLM 2026</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+      <button onclick="var a=document.getElementById('abs6'),c=document.getElementById('cite6');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
+      <button onclick="var a=document.getElementById('abs6'),c=document.getElementById('cite6');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
+      <a href="https://arxiv.org/abs/2602.21947" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
+    </div>
+    <div id="abs6" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
+      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Large language models (LLMs) demonstrate remarkable breadth of knowledge, yet their ability to reason about computational processes remains poorly understood. Closing this gap matters for practitioners who rely on LLMs to guide algorithm selection and deployment. We address this limitation using causal discovery as a testbed and evaluate eight frontier LLMs against ground truth derived from algorithm executions. We find systematic, near-total failure across models. The predicted ranges are far wider than true confidence intervals yet still fail to contain the true algorithmic mean in most cases. Most models perform worse than random guessing. The best model's marginal improvement points to benchmark memorization rather than principled reasoning. We term this failure algorithmic blindness and argue it reflects a fundamental gap between declarative knowledge about algorithms and calibrated procedural prediction.</p>
+    </div>
+    <div id="cite6" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
+      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@article{venkatesh2026large,
+  title={Large Language Models are Algorithmically Blind},
+  author={Venkatesh, Sohan and Kurapath, Ashish Mahendran and Melkote, Tejas},
+  journal={arXiv preprint arXiv:2602.21947},
+  year={2026}
+}</pre>
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
+  <div style="background: #888; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">Preprint</div>
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs</h3>
+    <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong></p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">arXiv preprint</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+      <button onclick="var a=document.getElementById('abs5'),c=document.getElementById('cite5');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
+      <button onclick="var a=document.getElementById('abs5'),c=document.getElementById('cite5');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
+      <a href="https://arxiv.org/abs/2605.09239" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
+    </div>
+    <div id="abs5" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
+      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Large language models fail at counting repeated tokens despite strong performance on broader reasoning benchmarks. These failures are commonly attributed to limitations in internal count tracking. We show this attribution is wrong. Linear probes on the residual stream decode the correct count with near-perfect accuracy at every post-embedding layer, across all model depths. This holds even at the exact layers where the wrong answer crystallizes while the model simultaneously outputs an incorrect count. Attention patterns show no evidence of collapse over repeated tokens and tokenization artifacts account for none of the failure. Instead, a format-triggered multi-layer perceptron (MLP) block overwrites the correctly-encoded count with a fixed wrong answer at roughly 88--93,% network depth. This prior fires for repeated word-tokens in space-separated list format and is absent for repeated digit-tokens. It is suppressed by comma-separated delimiters in larger models but persists in smaller ones. The finding holds across Llama-3.2 (1B and 3B) and Qwen2.5 (1.5B, 3B and 7B) at consistent relative depth. Counting failure is a failure of routing not of representation and the two require different interventions.</p>
+    </div>
+    <div id="cite5" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
+      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@misc{venkatesh2026repeatedtokencountingrevealsdissociation,
+      title={Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs}, 
+      author={Sohan Venkatesh},
+      year={2026},
+      eprint={2605.09239},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.09239}, 
 }</pre>
     </div>
   </div>

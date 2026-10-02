@@ -3,7 +3,7 @@ layout: page
 title: Inverse Scaling in Chain-of-Thought Faithfulness
 description: A study of whether CoT reasoning faithfulness decreases as model scale increases, tested across 11 open-weight Llama and Qwen models.
 img: assets/img/cause.png
-importance: 1
+importance: 3
 github: https://github.com/sohv/inverse-scaling-cot
 ---
 

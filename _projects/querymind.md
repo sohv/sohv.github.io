@@ -2,7 +2,7 @@
 layout: page
 title: "QueryMind"
 description: An AI agent that connects to real-time databases through the MCP and allows natural language-to-SQL query translation, full CRUD operations and secure live data access.
-importance: 1
+importance: 3
 github: https://github.com/sohv/QueryMind
 ---
 
