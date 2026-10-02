@@ -176,6 +176,14 @@ function exportCVToPDF() {
 
 <div style="margin-bottom: 0.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+    <strong style="font-size: 0.9rem;">Research Mentor</strong>
+    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Sep 2026 - Present</span>
+  </div>
+  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">SPAR Research</div>
+</div>
+
+<div style="margin-bottom: 0.5rem;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
     <strong style="font-size: 0.9rem;">Research Fellow</strong>
     <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Jul 2026 - Present</span>
   </div>
@@ -228,38 +236,19 @@ function exportCVToPDF() {
 </div>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
+  <strong>S. Venkatesh</strong>, T. Jiralerspong, F. Kondrup. "Where Empathy Goes Wrong: Emotional Appeals Compromise AI-to-AI Oversight." <em>Agents in the Wild Workshop at NeurIPS 2026</em>. <a href="https://drive.google.com/file/d/1TpyRoCZ0UHEfdh-bzhkr5fvCN65UV-Rp/view?usp=sharing" style="color: var(--global-theme-color);">[Paper]</a>
+</div>
+
+<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
+  <strong>S. Venkatesh</strong>, A. M. Kurapath, T. Melkote. "Algorithmic Blindness in Large Language Models: A Calibration Study of Performance Prediction." <em>AI Measurement Science Workshop at COLM 2026</em>. <a href="https://arxiv.org/abs/2602.21947" style="color: var(--global-theme-color);">[Paper]</a>
+</div>
+
+<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
   <strong>S. Venkatesh</strong>. "Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs." <em>Preprint</em>. <a href="https://arxiv.org/abs/2605.09239" style="color: var(--global-theme-color);">[Paper]</a>
 </div>
 
-<!--
-<div style="margin-bottom: 0rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>, A. M. Kurapath, T. Melkote. "Large Language Models are Algorithmically Blind." <em>Preprint</em>. <a href="https://arxiv.org/abs/2602.21947" style="color: var(--global-theme-color);">[Paper]</a>
-</div>
--->
-
 </div>
 
-</div>
-
-<!-- Research -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
-<h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-microscope" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Research</h2>
-
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>Do LLMs Actually Feel Happy for You?</strong> — A mechanistic look at how LLMs process emotional context. <a href="https://sohanvenkatesh.substack.com/p/do-llms-actually-feel-happy-for-you" style="color: var(--global-theme-color);">[Blog]</a>
-</div>
-
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>Inverse Scaling in CoT faithfulness</strong> — Showed unfaithfulness in larger LLMs is a capability artifact after controlling for accuracy. <a href="https://github.com/sohv/inverse-scaling-cot" style="color: var(--global-theme-color);">[Code]</a>
-</div>
-
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>Election Safety Benchmark</strong> — Pilot benchmark for testing if LLMs give voters accurate election information.  <a href="https://github.com/sohv/voter-eval" style="color: var(--global-theme-color);">[Code]</a>
-</div>
-
-<div style="margin-bottom: 0rem; font-size: 0.9rem;">
-  <strong>Prisoner's Dilemma in LLMs</strong> — Analyzed three different LLMs with personality variations to study their behavior and cooperation. <a href="https://github.com/sohv/cooperate-or-defect" style="color: var(--global-theme-color);">[Code]</a>
-</div>
 </div>
 
 <!-- Projects -->
@@ -267,20 +256,23 @@ function exportCVToPDF() {
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-code" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Projects</h2>
 
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>nanoKimi</strong> — A minimzed implementation of Kimi-K2 with custom Muon optimizer and latent attention mechanism. <a href="https://github.com/sohv/nanokimi" style="color: var(--global-theme-color);">[Code]</a>
-</div>
-
-
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>anada</strong> — A lightweight, terminal-first note-taking tool with Markdown support and bi-directional linking. <a href="https://pypi.org/project/anada/" style="color: var(--global-theme-color);">[PyPI]</a>
+  <strong>Sandbagging Evaluation in LLMs</strong> — Inspect-based evaluation testing whether frontier LLMs sandbag after discovering a hidden threshold under different framings. <a href="https://github.com/sohv/model-sandbagging" style="color: var(--global-theme-color);">[Code]</a>
 </div>
 
 <div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>QueryMind</strong> — An AI agent for natural language to SQL query translation via MCP. <a href="https://github.com/sohv/QueryMind" style="color: var(--global-theme-color);">[Code]</a>
+  <strong>Inverse Scaling in CoT faithfulness</strong> — Showed unfaithfulness in larger LLMs is a capability artifact after controlling for accuracy. <a href="https://github.com/sohv/inverse-scaling-cot" style="color: var(--global-theme-color);">[Code]</a>
 </div>
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>MCRAG</strong> — A multi-code review and generation system. <a href="https://github.com/sohv/mcrag" style="color: var(--global-theme-color);">[Code]</a> <a href="https://www.youtube.com/watch?v=KhGWROcu3xE" style="color: var(--global-theme-color);">[Video]</a>
 
+<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
+  <strong>Diffing for Model Spec Midtraining</strong> — Studied whether model diffing recovers a value installed during model spec midtraining in Llama 3.1 8B. <a href="https://github.com/sohv/diffing-recovers-midtraining" style="color: var(--global-theme-color);">[Code]</a>
+</div>
+
+<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
+  <strong>nanoKimi</strong> — An implementation of Kimi-K2 with Muon optimizer and latent attention mechanism. <a href="https://github.com/sohv/nanokimi" style="color: var(--global-theme-color);">[Code]</a>
+</div>
+
+<div style="margin-bottom: 0rem; font-size: 0.9rem;">
+  <strong>MCRAG</strong> — A multi-LLM code generation and review system with a generator and two critics. <a href="https://github.com/sohv/mcrag" style="color: var(--global-theme-color);">[Code]</a>
 </div>
 </div>
 
@@ -291,9 +283,9 @@ function exportCVToPDF() {
 
 <div style="margin-bottom: 0; font-size: 0.9rem;">
   <ul style="padding-left: 1.2rem; margin-bottom: 0;">
-    <li> $700 BlueDot Impact grant for CoT faithfulness research</li>
-    <li> $2,800 Travel Grant for ICLR 2026</li>
-    <li>$1,500 Cohere Labs Catalyst Grant</li>
+    <li>$13,500 Manifund grant for AI control research</li>
+    <li>$5,000 Tinker grant for model persona research</li>
+    <li>$3,700 BlueDot grant for CoT faithfulness research</li>
     <li>Amazon ML Summer School'26</li>
     <li>AWS AI&ML Scholarship 2026</li>
 
