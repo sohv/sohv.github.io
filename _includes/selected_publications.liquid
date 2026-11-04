@@ -1,88 +1,30 @@
 <div class="publications" style="margin-top: 1rem;">
 
-<!-- Paper 1 -->
-<div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
-  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">Re-Align@ICLR</div>
-  <div style="flex: 1;">
-    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">On the Non-Identifiability of Steering Vectors in Large Language Models</h3>
-    <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong>, Ashish Mahendran Kurapath</p>
-    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Representational Alignment Workshop at ICLR 2026</p>
-    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
-      <button onclick="var a=document.getElementById('abs1'),c=document.getElementById('cite1');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
-      <button onclick="var a=document.getElementById('abs1'),c=document.getElementById('cite1');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
-      <a href="https://arxiv.org/abs/2602.06801" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
-    </div>
-    <div id="abs1" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
-      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Activation steering methods are widely used to control large language model (LLM) behavior and are often interpreted as revealing meaningful internal representations. This interpretation assumes that steering directions are identifiable and uniquely recoverable from input-output behavior. We show that, under white-box single-layer access, steering vectors are fundamentally non-identifiable due to large equivalence classes of behaviorally indistinguishable interventions. Empirically, we find that orthogonal perturbations achieve near-equivalent efficacy with negligible effect sizes across multiple models and traits. Critically, we show that non-identifiability is a robust geometric property that persists across diverse prompt distributions. These findings reveal fundamental interpretability limits and highlight the need for structural constraints beyond behavioral testing to enable reliable alignment interventions.</p>
-    </div>
-    <div id="cite1" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
-      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@article{venkatesh2026non,
-  title={On the Non-Identifiability of Steering Vectors in Large Language Models},
-  author={Venkatesh, Sohan and Mahendran Kurapath, Ashish},
-  journal={arXiv e-prints},
-  pages={arXiv--2602},
-  year={2026}
-}</pre>
-    </div>
-  </div>
-</div>
-
-
-
+<p style="margin: -0.5rem 0 1.2rem 0; font-size: 0.8rem; color: var(--global-text-color-light);">* equal contribution</p>
 
 <div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
-  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">MechInterp</div>
+  <div style="background: #888; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">Preprint</div>
   <div style="flex: 1;">
-    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Architecture, Not Scale: Circuit Localization in Large Language Models</h3>
-    <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong></p>
-    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Mechanistic Interpretability Workshop at ICML 2026</p>
+    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment</h3>
+    <p style="margin: 0.15rem 0; font-size: 0.9rem;">Ariana M. Villegas-Suarez*, Guido Freire*, <strong>Sohan Venkatesh*</strong>, Bartosz Cywiński</p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">arXiv preprint</p>
     <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
-      <button onclick="var a=document.getElementById('abs3'),c=document.getElementById('cite3');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
-      <button onclick="var a=document.getElementById('abs3'),c=document.getElementById('cite3');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
-      <a href="https://arxiv.org/abs/2605.08853" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
+      <button onclick="var a=document.getElementById('abs8'),c=document.getElementById('cite8');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
+      <button onclick="var a=document.getElementById('abs8'),c=document.getElementById('cite8');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
+      <a href="https://arxiv.org/abs/2611.05287" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
     </div>
-    <div id="abs3" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
-      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Mechanistic interpretability assumes that circuit analysis becomes harder as models scale. We challenge this assumption by showing that the attention architecture matters more than parameter count. Studying three circuit types across Pythia and Qwen2.5, we find that grouped query attention produces circuits that are far more concentrated and mechanistically stable than standard multi-head attention at comparable scales. The same concentration pattern holds across indirect object identification, induction heads, and factual recall. Within a single architecture family (Qwen2.5), factual recall circuits undergo a discrete phase transition above a critical scale, collapsing to a single bottleneck rather than degrading gradually. These findings suggest that some architectural choices make large models more tractable to study and that interpretability difficulty is not a fixed consequence of model size.</p>
+    <div id="abs8" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
+      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Fine-tuning a large language model (LLM) on harmful data in a narrow domain, such as bad medical advice, can make it broadly misaligned. How realistic this risk is remains unclear, since models are very rarely fine-tuned on explicitly harmful data in practice. In this work, we show that fine-tuning on data the model believes to be false but that has no harmful content, can also induce broad misalignment. Across mathematics, trivia, cooking and sports, the more strongly the model disbelieves the answers it is trained on, the more misaligned it becomes. In mathematics, misaligned answers rise from 4% to over 60% as the training answers become more wrong, with little loss of general capability. After fine-tuning, the model states the wrong answers but its multiple-choice probabilities still prefer the true ones, which suggests that misalignment comes from this internal inconsistency. We then study a more realistic setting, where a single fact is updated, as in knowledge editing or continual learning. The same relationship holds and the more the model still believes the true fact after training on the false one, the more misaligned it becomes. When we frame the same false fact as part of a coherent story, the model comes to believe it more deeply and becomes less misaligned than when we instruct it to assert the false fact. Content filters and persona vectors cannot tell these two framings apart, even though they lead to different levels of misalignment. These results suggest a risk for model updates, where training a model that does not adopt the new fact as true can induce misalignment even when the data looks harmless.</p>
     </div>
-    <div id="cite3" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
-      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@misc{venkatesh2026architecturescalecircuitlocalization,
-      title={Architecture, Not Scale: Circuit Localization in Large Language Models}, 
-      author={Sohan Venkatesh},
+    <div id="cite8" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
+      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@misc{villegassuarez2026knowinglywrongtrainingllms,
+      title={Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment}, 
+      author={Ariana M. Villegas-Suarez and Guido Freire and Sohan Venkatesh and Bartosz Cywiński},
       year={2026},
-      eprint={2605.08853},
+      eprint={2611.05287},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2605.08853},
-}</pre>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
-  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">MechInterp</div>
-  <div style="flex: 1;">
-    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Negative Before Positive: Asymmetric Valence Processing in Large Language Models</h3>
-    <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong></p>
-    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Mechanistic Interpretability Workshop at ICML 2026</p>
-    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
-      <button onclick="var a=document.getElementById('abs4'),c=document.getElementById('cite4');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
-      <button onclick="var a=document.getElementById('abs4'),c=document.getElementById('cite4');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
-      <a href="https://arxiv.org/abs/2605.05653" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
-    </div>
-    <div id="abs4" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
-      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Mechanistic interpretability has revealed how concepts are encoded in large language models (LLMs), but emotional content remains poorly understood at the mechanistic level. We study whether LLMs process emotional valence through dedicated internal structure or through surface token matching. Using activation patching and steering on open-source LLMs, we find that negative and positive valence are processed at different network depths. Negative outcomes localize to early layers while positive outcomes peak at mid-to-late layers. Holding topic fixed while flipping valence produces sign-opposite responses, ruling out topic detection. Steering with the good-news direction at the identified layers shifts neutral prompts toward positive valence, showing these layers encode valence as a manipulable direction. Emotional valence in LLMs is localized, causal and steerable, making it a concrete target for interpretability-based oversight.</p>
-    </div>
-    <div id="cite4" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
-      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@article{venkatesh2026negative,
-  title={Negative Before Positive: Asymmetric Valence Processing in Large Language Models},
-  author={Venkatesh, Sohan},
-  journal={arXiv preprint arXiv:2605.05653},
-  year={2026}
+      url={https://arxiv.org/abs/2611.05287}, 
 }</pre>
     </div>
   </div>
@@ -134,6 +76,59 @@
 </div>
 
 <div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
+  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">MechInterp</div>
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Negative Before Positive: Asymmetric Valence Processing in Large Language Models</h3>
+    <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong></p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Mechanistic Interpretability Workshop at ICML 2026</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+      <button onclick="var a=document.getElementById('abs4'),c=document.getElementById('cite4');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
+      <button onclick="var a=document.getElementById('abs4'),c=document.getElementById('cite4');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
+      <a href="https://arxiv.org/abs/2605.05653" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
+    </div>
+    <div id="abs4" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
+      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Mechanistic interpretability has revealed how concepts are encoded in large language models (LLMs), but emotional content remains poorly understood at the mechanistic level. We study whether LLMs process emotional valence through dedicated internal structure or through surface token matching. Using activation patching and steering on open-source LLMs, we find that negative and positive valence are processed at different network depths. Negative outcomes localize to early layers while positive outcomes peak at mid-to-late layers. Holding topic fixed while flipping valence produces sign-opposite responses, ruling out topic detection. Steering with the good-news direction at the identified layers shifts neutral prompts toward positive valence, showing these layers encode valence as a manipulable direction. Emotional valence in LLMs is localized, causal and steerable, making it a concrete target for interpretability-based oversight.</p>
+    </div>
+    <div id="cite4" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
+      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@article{venkatesh2026negative,
+  title={Negative Before Positive: Asymmetric Valence Processing in Large Language Models},
+  author={Venkatesh, Sohan},
+  journal={arXiv preprint arXiv:2605.05653},
+  year={2026}
+}</pre>
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
+  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">MechInterp</div>
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Architecture, Not Scale: Circuit Localization in Large Language Models</h3>
+    <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong></p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Mechanistic Interpretability Workshop at ICML 2026</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+      <button onclick="var a=document.getElementById('abs3'),c=document.getElementById('cite3');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
+      <button onclick="var a=document.getElementById('abs3'),c=document.getElementById('cite3');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
+      <a href="https://arxiv.org/abs/2605.08853" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
+    </div>
+    <div id="abs3" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
+      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Mechanistic interpretability assumes that circuit analysis becomes harder as models scale. We challenge this assumption by showing that the attention architecture matters more than parameter count. Studying three circuit types across Pythia and Qwen2.5, we find that grouped query attention produces circuits that are far more concentrated and mechanistically stable than standard multi-head attention at comparable scales. The same concentration pattern holds across indirect object identification, induction heads, and factual recall. Within a single architecture family (Qwen2.5), factual recall circuits undergo a discrete phase transition above a critical scale, collapsing to a single bottleneck rather than degrading gradually. These findings suggest that some architectural choices make large models more tractable to study and that interpretability difficulty is not a fixed consequence of model size.</p>
+    </div>
+    <div id="cite3" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
+      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@misc{venkatesh2026architecturescalecircuitlocalization,
+      title={Architecture, Not Scale: Circuit Localization in Large Language Models}, 
+      author={Sohan Venkatesh},
+      year={2026},
+      eprint={2605.08853},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.08853},
+}</pre>
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
   <div style="background: #888; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">Preprint</div>
   <div style="flex: 1;">
     <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs</h3>
@@ -156,6 +151,32 @@
       archivePrefix={arXiv},
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2605.09239}, 
+}</pre>
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 2.3rem; margin-bottom: 1.5rem; align-items: flex-start;">
+  <div style="background: #55b3d8; color: white; padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: bold; white-space: nowrap; width: 140px; flex-shrink: 0; box-sizing: border-box; text-align: center; font-size: 0.85rem;">Re-Align@ICLR</div>
+  <div style="flex: 1;">
+    <h3 style="margin: 0 0 0.3rem 0; font-size: 1.1rem;">On the Non-Identifiability of Steering Vectors in Large Language Models</h3>
+    <p style="margin: 0.15rem 0; font-size: 0.9rem;"><strong>Sohan Venkatesh</strong>, Ashish Mahendran Kurapath</p>
+    <p style="margin: 0.3rem 0 0.8rem 0; color: var(--global-text-color-light); font-size: 0.85rem; font-style: italic;">Representational Alignment Workshop at ICLR 2026</p>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1rem;">
+      <button onclick="var a=document.getElementById('abs1'),c=document.getElementById('cite1');a.style.display=a.style.display==='none'?'block':'none';c.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">ABS</button>
+      <button onclick="var a=document.getElementById('abs1'),c=document.getElementById('cite1');c.style.display=c.style.display==='none'?'block':'none';a.style.display='none'" style="border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; background: transparent; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; cursor: pointer; font-weight: 500;">CITE</button>
+      <a href="https://arxiv.org/abs/2602.06801" style="display: inline-block; border: 1px solid var(--global-text-color); padding: 0.35rem 0.7rem; text-decoration: none; color: var(--global-text-color); font-size: 0.8rem; border-radius: 3px; font-weight: 500;">PDF</a>
+    </div>
+    <div id="abs1" style="display: none; padding: 1rem; background: transparent; border: 2px dashed var(--global-divider-color); border-radius: 3px; margin-bottom: 1rem;">
+      <p style="margin: 0; font-size: 0.85rem; line-height: 1.6; text-align: justify;">Activation steering methods are widely used to control large language model (LLM) behavior and are often interpreted as revealing meaningful internal representations. This interpretation assumes that steering directions are identifiable and uniquely recoverable from input-output behavior. We show that, under white-box single-layer access, steering vectors are fundamentally non-identifiable due to large equivalence classes of behaviorally indistinguishable interventions. Empirically, we find that orthogonal perturbations achieve near-equivalent efficacy with negligible effect sizes across multiple models and traits. Critically, we show that non-identifiability is a robust geometric property that persists across diverse prompt distributions. These findings reveal fundamental interpretability limits and highlight the need for structural constraints beyond behavioral testing to enable reliable alignment interventions.</p>
+    </div>
+    <div id="cite1" style="display: none; padding: 1rem; background: transparent; border: none; border-radius: 3px; margin-bottom: 1rem;">
+      <pre style="margin: 0; background: transparent; padding: 0; overflow-x: auto; font-size: 0.75rem; line-height: 1.4; color: var(--global-theme-color);">@article{venkatesh2026non,
+  title={On the Non-Identifiability of Steering Vectors in Large Language Models},
+  author={Venkatesh, Sohan and Mahendran Kurapath, Ashish},
+  journal={arXiv e-prints},
+  pages={arXiv--2602},
+  year={2026}
 }</pre>
     </div>
   </div>

@@ -184,6 +184,14 @@ function exportCVToPDF() {
 
 <div style="margin-bottom: 0.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
+    <strong style="font-size: 0.9rem;">Open Source Contributor</strong>
+    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Aug 2026 - Present</span>
+  </div>
+  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">TransformerLens</div>
+</div>
+
+<div style="margin-bottom: 0.5rem;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
     <strong style="font-size: 0.9rem;">Research Fellow</strong>
     <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Jul 2026 - Present</span>
   </div>
@@ -220,19 +228,10 @@ function exportCVToPDF() {
 <div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
 <h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-book" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Publications</h2>
 
-<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>, A. M. Kurapath. "On the Non-Identifiability of Steering Vectors in Large Language Models." <em>Representational Alignment Workshop at ICLR 2026</em>. <a href="https://arxiv.org/abs/2602.06801" style="color: var(--global-theme-color);">[Paper]</a>
-  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster1.pdf' | relative_url }}', 'Poster: On the Non-Identifiability of Steering Vectors in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
-</div>
+<p style="margin: -0.6rem 0 0.8rem 0; font-size: 0.8rem; color: var(--global-text-color-light);">* equal contribution</p>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>. "Architecture, Not Scale: Circuit Localization in Large Language Models." <em>Mechanistic Interpretability Workshop at ICML 2026</em>. <a href="https://arxiv.org/abs/2605.08853" style="color: var(--global-theme-color);">[Paper]</a>
-  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster2.pdf' | relative_url }}', 'Poster: Architecture, Not Scale: Circuit Localization in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
-</div>
-
-<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>. "Negative Before Positive: Asymmetric Valence Processing in Large Language Models." <em>Mechanistic Interpretability Workshop at ICML 2026</em>. <a href="https://arxiv.org/abs/2605.05653" style="color: var(--global-theme-color);">[Paper]</a>
-  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster3.pdf' | relative_url }}', 'Poster: Negative Before Positive: Asymmetric Valence Processing in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
+  A. M. Villegas-Suarez*, G. Freire*, <strong>S. Venkatesh*</strong>, B. Cywiński. "Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment." <em>Preprint</em>. <a href="https://arxiv.org/abs/2611.05287" style="color: var(--global-theme-color);">[Paper]</a>
 </div>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
@@ -244,7 +243,22 @@ function exportCVToPDF() {
 </div>
 
 <div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
+  <strong>S. Venkatesh</strong>. "Negative Before Positive: Asymmetric Valence Processing in Large Language Models." <em>Mechanistic Interpretability Workshop at ICML 2026</em>. <a href="https://arxiv.org/abs/2605.05653" style="color: var(--global-theme-color);">[Paper]</a>
+  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster3.pdf' | relative_url }}', 'Poster: Negative Before Positive: Asymmetric Valence Processing in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
+</div>
+
+<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
+  <strong>S. Venkatesh</strong>. "Architecture, Not Scale: Circuit Localization in Large Language Models." <em>Mechanistic Interpretability Workshop at ICML 2026</em>. <a href="https://arxiv.org/abs/2605.08853" style="color: var(--global-theme-color);">[Paper]</a>
+  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster2.pdf' | relative_url }}', 'Poster: Architecture, Not Scale: Circuit Localization in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
+</div>
+
+<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
   <strong>S. Venkatesh</strong>. "Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs." <em>Preprint</em>. <a href="https://arxiv.org/abs/2605.09239" style="color: var(--global-theme-color);">[Paper]</a>
+</div>
+
+<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
+  <strong>S. Venkatesh</strong>, A. M. Kurapath. "On the Non-Identifiability of Steering Vectors in Large Language Models." <em>Representational Alignment Workshop at ICLR 2026</em>. <a href="https://arxiv.org/abs/2602.06801" style="color: var(--global-theme-color);">[Paper]</a>
+  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster1.pdf' | relative_url }}', 'Poster: On the Non-Identifiability of Steering Vectors in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
 </div>
 
 </div>
