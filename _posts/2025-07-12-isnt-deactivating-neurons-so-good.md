@@ -7,6 +7,7 @@ tags: ["AI", "Research", "LLM", "Alignment"]
 featured: false
 author: "Sohan Venkatesh"
 readTime: "4 min read"
+cite_key: venkatesh2025deactivating
 ---
 
 When we talk about neural network interpretability, one of the most fascinating questions is: *what happens when we turn off specific neurons?*  It's like asking what happens when we remove a single instrument from an orchestra - sometimes the music barely changes, and sometimes the whole symphony falls apart.

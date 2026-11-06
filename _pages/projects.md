@@ -3,13 +3,13 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of my cool projects. * indicates on-going work.
-nav: true
+nav: false
 nav_order: 3
 ---
 
 <!-- pages/projects.md -->
 
-<div class="publications">
+<div class="rd-projects">
 
 {% assign sorted_research = site.research | sort: "importance" %}
 

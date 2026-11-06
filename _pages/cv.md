@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 permalink: /cv/
 title: cv
 description: Curriculum Vitae
@@ -129,209 +129,107 @@ function exportCVToPDF() {
 -->
 
 <!-- Main CV Content -->
-<div id="cvContent">
+<div id="cvContent" class="rd-cv">
 
-<!-- Personal Info -->
-<div style="text-align: center; margin-bottom: 1.5rem;">
-  <h1 style="margin: 0 0 0.8rem 0; font-size: 1.8rem;">Sohan Venkatesh</h1>
-  <div style="display: flex; gap: 1.5rem; font-size: 0.9rem; color: var(--global-text-color-light); justify-content: center;">
-    <a href="mailto:soh.venkatesh@gmail.com" style="color: var(--global-theme-color); text-decoration: none; display: flex; align-items: center; gap: 0.4rem;">
-      <i class="fa-solid fa-envelope"></i>Email
-    </a>
-    <a href="https://github.com/sohv" style="color: var(--global-theme-color); text-decoration: none; display: flex; align-items: center; gap: 0.4rem;">
-      <i class="fa-brands fa-github"></i>GitHub
-    </a>
-    <a href="https://www.linkedin.com/in/sohan-venkatesh/" style="color: var(--global-theme-color); text-decoration: none; display: flex; align-items: center; gap: 0.4rem;">
-      <i class="fa-brands fa-linkedin"></i>LinkedIn
-    </a>
-  </div>
-</div>
+<header class="rd-cv-head">
+  <h1>Curriculum Vitae</h1>
+  <p class="rd-cv-contact">
+    <a href="mailto:soh.venkatesh@gmail.com">email</a>
+    <a href="https://github.com/sohv">github</a>
+    <a href="https://www.linkedin.com/in/sohan-venkatesh/">linkedin</a>
+  </p>
+</header>
 
-<!-- Education -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
-<h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-graduation-cap" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Education</h2>
+<section class="cv-section">
+<h2 class="rd-h">Education</h2>
+<ul class="rd-cv-rows">
+  <li>
+    <span class="rd-cv-date">2022 – 2026</span>
+    <div><b>Bachelor of Technology, Computer Science</b><span class="rd-cv-org">Manipal Institute of Technology, Bengaluru</span></div>
+  </li>
+</ul>
+</section>
 
-<div style="margin-bottom: 0rem; padding-bottom: 0rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong>Bachelor of Technology, Computer Science</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">2022 — 2026</span>
-  </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">Manipal Institute of Technology, Bengaluru</div>
-</div>
-</div>
-
-<!-- Experience -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
-<h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-briefcase" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Experience</h2>
-
+<section class="cv-section">
+<h2 class="rd-h">Experience</h2>
+<ul class="rd-cv-rows">
 <!--
-<div style="margin-bottom: 0.5rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong style="font-size: 0.9rem;">Research Intern</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Jan 2026 - Present</span>
-  </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">IISc Bengaluru</div>
-</div>
+  <li>
+    <span class="rd-cv-date">Jan 2026 – Present</span>
+    <div><b>Research Intern</b><span class="rd-cv-org">IISc Bengaluru</span></div>
+  </li>
 -->
+  <li>
+    <span class="rd-cv-date">Sep 2026 – Present</span>
+    <div><b>Research Mentor</b><span class="rd-cv-org">SPAR Research</span></div>
+  </li>
+  <li>
+    <span class="rd-cv-date">Sep – Oct 2026</span>
+    <div><b>Research Scholar</b><span class="rd-cv-org">MATS Research (Neel Nanda's MATS 12 Exploration Phase)</span></div>
+  </li>
+  <li>
+    <span class="rd-cv-date">Jul 2026 – Present</span>
+    <div><b>Research Fellow</b><span class="rd-cv-org">LASR Labs</span></div>
+  </li>
+  <li>
+    <span class="rd-cv-date">May – Oct 2025</span>
+    <div><b>Research Intern</b><span class="rd-cv-org">IIIT Hyderabad</span></div>
+  </li>
+  <li>
+    <span class="rd-cv-date">Jul – Sep 2024</span>
+    <div><b>AI Fellow</b><span class="rd-cv-org">Fellowship.ai</span></div>
+  </li>
+  <li>
+    <span class="rd-cv-date">May – Jul 2024</span>
+    <div><b>Project Intern</b><span class="rd-cv-org">Infosys</span></div>
+  </li>
+</ul>
+</section>
 
-<div style="margin-bottom: 0.5rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong style="font-size: 0.9rem;">Research Mentor</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Sep 2026 - Present</span>
-  </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">SPAR Research</div>
-</div>
+<section class="cv-section">
+<h2 class="rd-h">Publications</h2>
+{% include selected_publications.liquid posters=true %}
+</section>
 
-<div style="margin-bottom: 0.5rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong style="font-size: 0.9rem;">Open Source Contributor</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Aug 2026 - Present</span>
-  </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">TransformerLens</div>
-</div>
+<section class="cv-section">
+<h2 class="rd-h">Projects</h2>
+<ul class="rd-cv-list">
+  <li><b>Sandbagging Evaluation in LLMs</b> — Inspect-based evaluation testing whether frontier LLMs sandbag after discovering a hidden threshold under different framings. <a class="rd-cv-link" href="https://github.com/sohv/model-sandbagging">code</a></li>
+  <li><b>Diffing for Model Spec Midtraining</b> — Studied whether model diffing recovers a value installed during model spec midtraining in Llama 3.1 8B. <a class="rd-cv-link" href="https://github.com/sohv/diffing-recovers-midtraining">code</a></li>
+  <li><b>Inverse Scaling in CoT faithfulness</b> — Showed unfaithfulness in larger LLMs is a capability artifact after controlling for accuracy. <a class="rd-cv-link" href="https://github.com/sohv/inverse-scaling-cot">code</a></li>
+  <li><b>nanoKimi</b> — An implementation of Kimi-K2 with Muon optimizer and latent attention mechanism. <a class="rd-cv-link" href="https://github.com/sohv/nanokimi">code</a></li>
+  <li><b>MCRAG</b> — A multi-LLM code generation and review system with a generator and two critics. <a class="rd-cv-link" href="https://github.com/sohv/mcrag">code</a></li>
+</ul>
+</section>
 
-<div style="margin-bottom: 0.5rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong style="font-size: 0.9rem;">Research Fellow</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Jul 2026 - Present</span>
-  </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">LASR Labs</div>
-</div>
-
-<div style="margin-bottom: 0.5rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong style="font-size: 0.9rem;">Research Intern</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">May — Oct 2025</span>
-  </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">IIIT Hyderabad</div>
-</div>
-
-
-<div style="margin-bottom: 0.5rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong style="font-size: 0.9rem;">AI Fellow</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">Jul - Sep 2024</span>
-  </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">Fellowship.ai</div>
-</div>
-
-<div style="margin-bottom: 0rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap;">
-    <strong style="font-size: 0.9rem;">Project Intern</strong>
-    <span style="color: var(--global-text-color-light); font-size: 0.85rem;">May - Jul 2024</span>
-  </div>
-  <div style="color: var(--global-text-color-light); font-size: 0.9rem;">Infosys</div>
-</div>
-</div>
-
-<!-- Publications -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
-<h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-book" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Publications</h2>
-
-<p style="margin: -0.6rem 0 0.8rem 0; font-size: 0.8rem; color: var(--global-text-color-light);">* equal contribution</p>
-
-<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  A. M. Villegas-Suarez*, G. Freire*, <strong>S. Venkatesh*</strong>, B. Cywiński. "Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment." <em>Preprint</em>. <a href="https://arxiv.org/abs/2611.05287" style="color: var(--global-theme-color);">[Paper]</a>
-</div>
-
-<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>, T. Jiralerspong, F. Kondrup. "Where Empathy Goes Wrong: Emotional Appeals Compromise AI-to-AI Oversight." <em>Agents in the Wild Workshop at NeurIPS 2026</em>. <a href="https://drive.google.com/file/d/1TpyRoCZ0UHEfdh-bzhkr5fvCN65UV-Rp/view?usp=sharing" style="color: var(--global-theme-color);">[Paper]</a>
-</div>
-
-<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>, A. M. Kurapath, T. Melkote. "Algorithmic Blindness in Large Language Models: A Calibration Study of Performance Prediction." <em>AI Measurement Science Workshop at COLM 2026</em>. <a href="https://arxiv.org/abs/2602.21947" style="color: var(--global-theme-color);">[Paper]</a>
-</div>
-
-<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>. "Negative Before Positive: Asymmetric Valence Processing in Large Language Models." <em>Mechanistic Interpretability Workshop at ICML 2026</em>. <a href="https://arxiv.org/abs/2605.05653" style="color: var(--global-theme-color);">[Paper]</a>
-  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster3.pdf' | relative_url }}', 'Poster: Negative Before Positive: Asymmetric Valence Processing in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
-</div>
-
-<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>. "Architecture, Not Scale: Circuit Localization in Large Language Models." <em>Mechanistic Interpretability Workshop at ICML 2026</em>. <a href="https://arxiv.org/abs/2605.08853" style="color: var(--global-theme-color);">[Paper]</a>
-  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster2.pdf' | relative_url }}', 'Poster: Architecture, Not Scale: Circuit Localization in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
-</div>
-
-<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>. "Repeated-Token Counting Reveals a Dissociation Between Representations and Outputs." <em>Preprint</em>. <a href="https://arxiv.org/abs/2605.09239" style="color: var(--global-theme-color);">[Paper]</a>
-</div>
-
-<div style="margin-bottom: 0.8rem; font-size: 0.9rem;">
-  <strong>S. Venkatesh</strong>, A. M. Kurapath. "On the Non-Identifiability of Steering Vectors in Large Language Models." <em>Representational Alignment Workshop at ICLR 2026</em>. <a href="https://arxiv.org/abs/2602.06801" style="color: var(--global-theme-color);">[Paper]</a>
-  <button type="button" onclick="openPdfModal('{{ '/assets/pdf/poster1.pdf' | relative_url }}', 'Poster: On the Non-Identifiability of Steering Vectors in Large Language Models')" style="border: none; background: transparent; color: var(--global-theme-color); padding: 0; cursor: pointer; font: inherit;">[Poster]</button>
-</div>
-
-</div>
-
-</div>
-
-<!-- Projects -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
-<h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-code" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Projects</h2>
-
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>Sandbagging Evaluation in LLMs</strong> — Inspect-based evaluation testing whether frontier LLMs sandbag after discovering a hidden threshold under different framings. <a href="https://github.com/sohv/model-sandbagging" style="color: var(--global-theme-color);">[Code]</a>
-</div>
-
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>Inverse Scaling in CoT faithfulness</strong> — Showed unfaithfulness in larger LLMs is a capability artifact after controlling for accuracy. <a href="https://github.com/sohv/inverse-scaling-cot" style="color: var(--global-theme-color);">[Code]</a>
-</div>
-
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>Diffing for Model Spec Midtraining</strong> — Studied whether model diffing recovers a value installed during model spec midtraining in Llama 3.1 8B. <a href="https://github.com/sohv/diffing-recovers-midtraining" style="color: var(--global-theme-color);">[Code]</a>
-</div>
-
-<div style="margin-bottom: 0.6rem; font-size: 0.9rem;">
-  <strong>nanoKimi</strong> — An implementation of Kimi-K2 with Muon optimizer and latent attention mechanism. <a href="https://github.com/sohv/nanokimi" style="color: var(--global-theme-color);">[Code]</a>
-</div>
-
-<div style="margin-bottom: 0rem; font-size: 0.9rem;">
-  <strong>MCRAG</strong> — A multi-LLM code generation and review system with a generator and two critics. <a href="https://github.com/sohv/mcrag" style="color: var(--global-theme-color);">[Code]</a>
-</div>
-</div>
-
-
-<!-- Achievements -->
-<div id="achievementsSection" style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 1.2rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);">
-<h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-trophy" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Achievements</h2>
-
-<div style="margin-bottom: 0; font-size: 0.9rem;">
-  <ul style="padding-left: 1.2rem; margin-bottom: 0;">
-    <li>$13,500 Manifund grant for AI control research</li>
-    <li>$5,000 Tinker grant for model persona research</li>
-    <li>$3,700 BlueDot grant for CoT faithfulness research</li>
-    <li>Amazon ML Summer School'26</li>
-    <li>AWS AI&ML Scholarship 2026</li>
-
-  </ul>
-</div>
-</div>
+<section id="achievementsSection" class="cv-section">
+<h2 class="rd-h">Achievements</h2>
+<ul class="rd-cv-list">
+  <li>$13,500 Manifund grant for AI control research</li>
+  <li>$5,000 Tinker grant for model persona research</li>
+  <li>$3,700 BlueDot grant for CoT faithfulness research</li>
+  <li>Amazon ML Summer School'26</li>
+  <li>AWS AI&amp;ML Scholarship 2026</li>
+</ul>
+</section>
 
 <!-- Rejections & Milestones
-<div id="rejectionsSection" style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
-<h2 style="margin-top: 0; margin-bottom: 0.4rem; font-size: 1.3rem;"><i class="fa-solid fa-flag" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Selected Rejections</h2>
-
-<div style="font-size: 0.9rem;">
-  <ul style="padding-left: 1.2rem; margin-bottom: 0;">
-    <li style="margin-bottom: 0.5rem;"><strong>Anthropic Fellowship (2026):</strong> Final stage rejection; scored ≥500/600 on both coding and debugging assessments.</li>
-    <li style="margin-bottom: 0.5rem;"><strong>MARS Fellowship (2026):</strong> Rejected at final selection interview.</li>
-    <li style="margin-bottom: 0.5rem;"><strong>Pivotal Fellowship (2026):</strong> Rejected at final selection interview.</li>
-    <li style="margin-bottom: 0;"><strong>Center on Long-Term Risk (CLR) SRF (2026):</strong> Final stage rejection.</li>
-  </ul>
-</div>
-</div>
+<section id="rejectionsSection" class="cv-section">
+<h2 class="rd-h">Selected Rejections</h2>
+<ul class="rd-cv-list">
+  <li><b>Anthropic Fellowship (2026):</b> Final stage rejection; scored ≥500/600 on both coding and debugging assessments.</li>
+  <li><b>MARS Fellowship (2026):</b> Rejected at final selection interview.</li>
+  <li><b>Pivotal Fellowship (2026):</b> Rejected at final selection interview.</li>
+  <li><b>Center on Long-Term Risk (CLR) SRF (2026):</b> Final stage rejection.</li>
+</ul>
+</section>
 -->
 
-<!-- Volunteering -->
-<div style="border: 1px solid var(--global-divider-color); border-radius: 6px; padding: 0.8rem; margin-bottom: 1rem; background-color: rgba(0,0,0,0.03);" class="cv-section">
-<h2 style="margin-top: 0; margin-bottom: 1rem; font-size: 1.3rem;"><i class="fa-solid fa-hands-helping" style="margin-right: 0.5rem; color: var(--global-theme-color);"></i>Volunteering</h2>
-
-<div style="margin-bottom: 0; font-size: 0.9rem;">
-  <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; margin-bottom: 0.4rem;">
-  <div>
-    <strong>Reviewer</strong> — COLM 2026, ACL TrustNLP 2026, ICLR Re-Align and CAO Workshops 2026
-  </div>
-</div>
-</div>
+<section class="cv-section">
+<h2 class="rd-h">Volunteering</h2>
+<ul class="rd-cv-list">
+  <li><b>Reviewer</b> — COLM 2026, ACL TrustNLP 2026, ICLR Re-Align and CAO Workshops 2026</li>
+</ul>
+</section>
 
 </div>

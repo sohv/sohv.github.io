@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-{% assign year = page.date | date: '%Y' %}
-{% assign tags = page.tags | join: '' %}
-{% assign categories = page.categories | join: '' %}
-{% assign url_beginning = page.url | slice: 0, 6 %}
-
 {% if page._styles %}
   <!-- Page/Post style -->
   <style type="text/css">
@@ -13,42 +8,152 @@ layout: default
   </style>
 {% endif %}
 
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">
-      Created on {{ page.date | date: '%B %d, %Y' }}
-      {% if page.author %}by {{ page.author }}{% endif %}
-      {% if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
-      {% if page.meta %}• {{ page.meta }}{% endif %}
-    </p>
-  </header>
+{% assign author = page.author %}
+{% if author == blank %}{% assign author = site.first_name | append: ' ' | append: site.last_name %}{% endif %}
+{% assign year = page.date | date: '%Y' %}
+{% assign last_name = author | split: ' ' | last %}
+{% assign given_names = author | split: ' ' | pop | join: ' ' %}
+{% assign default_key = page.slug | split: '-' | first %}
+{% assign cite_key = page.cite_key | default: default_key %}
 
-  <article class="post-content">
-    {% if page.toc and page.toc.beginning %}
-      <div id="table-of-contents">
-        <h2>Table of Contents</h2>
-        {{ content | toc_only }}
-      </div>
-      <hr>
-    {% endif %}
-    <div id="markdown-content">
-      {{ content }}
+<div class="rd-post">
+  <div class="rd-grid">
+    <header class="rd-post-head">
+      <h1>{{ page.title }}</h1>
+    </header>
+    <div class="rd-by">
+      <span>{{ author }}</span>
+      <span>{{ page.date | date: '%B %Y' }}</span>
     </div>
-  </article>
 
-  {% if page.citation %}
-    {% include citation.liquid %}
-  {% endif %}
+    <article id="rd-article">
+      <div id="markdown-content">
+        {{ content }}
+      </div>
 
-  {% if site.disqus_shortname and page.disqus_comments %}
-    {% include disqus.liquid %}
-  {% endif %}
-  {% if site.giscus and page.giscus_comments %}
-    {% include giscus.liquid %}
-  {% endif %}
+      {% unless page.cite == false %}
+        <div class="rd-cite">
+          <h3>Cite this post</h3>
+          <pre class="rd-bib" id="rd-bib">@misc{ {{- cite_key -}},
+  title  = { {{- page.title -}} },
+  author = { {{- last_name -}}, {{ given_names -}} },
+  year   = { {{- year -}} },
+  url    = { {{- page.url | absolute_url -}} }
+}</pre>
+          <button type="button" id="rd-copy-bib">Copy BibTeX</button>
+        </div>
+      {% endunless %}
 
-  <div class="post-navigation">
-    <a href="{{ '/blog/' | relative_url }}" class="back-to-blog-btn">← Back to Blog</a>
+      {% if site.giscus and page.giscus_comments %}
+        {% include giscus.liquid %}
+      {% endif %}
+
+      <a class="rd-back" href="{{ '/blog/' | relative_url }}">← all posts</a>
+    </article>
+
+    <nav class="rd-toc" id="rd-toc" aria-label="Contents" hidden>
+      <p class="rd-toc-h">Contents</p>
+      <ol></ol>
+    </nav>
   </div>
 </div>
+
+<script>
+  (function () {
+    var article = document.getElementById('rd-article');
+    var content = document.getElementById('markdown-content');
+
+    // Footnotes ([^1] in markdown) become margin notes beside their marker
+    var refs = content.querySelectorAll('sup[id^="fnref"]');
+    if (refs.length) {
+      var notes = [];
+      refs.forEach(function (sup) {
+        var link = sup.querySelector('a');
+        var li = link && document.getElementById(decodeURIComponent(link.getAttribute('href').slice(1)));
+        if (!li) return;
+        var num = link.textContent.trim();
+        link.textContent = '[' + num + ']';
+        sup.classList.add('rd-ref');
+        var note = document.createElement('aside');
+        note.className = 'rd-sidenote';
+        var n = document.createElement('span');
+        n.className = 'n';
+        n.textContent = '[' + num + ']';
+        note.appendChild(n);
+        var clone = li.cloneNode(true);
+        clone.querySelectorAll('.reversefootnote').forEach(function (b) { b.remove(); });
+        while (clone.firstChild) note.appendChild(clone.firstChild);
+        article.appendChild(note);
+        var pair = [sup, note];
+        [sup, note].forEach(function (el) {
+          el.addEventListener('mouseenter', function () { pair.forEach(function (x) { x.classList.add('hl'); }); });
+          el.addEventListener('mouseleave', function () { pair.forEach(function (x) { x.classList.remove('hl'); }); });
+        });
+        notes.push({ ref: sup, note: note });
+      });
+      article.classList.add('rd-has-sidenotes');
+      var place = function () {
+        var top0 = article.getBoundingClientRect().top;
+        var floor = 0;
+        notes.forEach(function (x) {
+          var y = Math.max(x.ref.getBoundingClientRect().top - top0, floor);
+          x.note.style.top = y + 'px';
+          floor = y + x.note.offsetHeight + 12;
+        });
+      };
+      place();
+      window.addEventListener('resize', place);
+      window.addEventListener('load', place);
+    }
+
+    // Numbered figure captions
+    content.querySelectorAll('figure figcaption').forEach(function (cap, i) {
+      var b = document.createElement('b');
+      b.textContent = 'Figure ' + (i + 1) + ': ';
+      cap.insertBefore(b, cap.firstChild);
+    });
+
+    // Table of contents from the post's top-level section headings
+    var heads = content.querySelectorAll(':scope > h2');
+    if (!heads.length) heads = content.querySelectorAll(':scope > h3');
+    var toc = document.getElementById('rd-toc');
+    if (heads.length >= 3) {
+      var ol = toc.querySelector('ol');
+      heads.forEach(function (h, i) {
+        if (!h.id) h.id = 'section-' + (i + 1);
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        a.href = '#' + h.id;
+        var n = document.createElement('span');
+        n.className = 'n';
+        n.textContent = String(i + 1).padStart(2, '0');
+        a.appendChild(n);
+        a.appendChild(document.createTextNode(h.textContent));
+        li.appendChild(a);
+        ol.appendChild(li);
+      });
+      toc.hidden = false;
+
+      var links = toc.querySelectorAll('a');
+      var spy = function () {
+        var cur = 0;
+        heads.forEach(function (h, i) { if (h.getBoundingClientRect().top < 120) cur = i; });
+        links.forEach(function (a, i) { a.classList.toggle('active', i === cur); });
+      };
+      window.addEventListener('scroll', spy, { passive: true });
+      spy();
+    }
+
+    // Copy BibTeX
+    var btn = document.getElementById('rd-copy-bib');
+    if (btn) {
+      btn.addEventListener('click', function () {
+        var text = document.getElementById('rd-bib').textContent;
+        navigator.clipboard.writeText(text).then(function () {
+          btn.textContent = 'Copied';
+          setTimeout(function () { btn.textContent = 'Copy BibTeX'; }, 1500);
+        });
+      });
+    }
+  })();
+</script>

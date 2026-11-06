@@ -1,33 +1,15 @@
-<div style="margin-bottom: 1.5rem;">
-  <div class="title"><strong>{{ entry.title }}</strong></div>
-  <div class="author">
-    {{ entry.description }}
-  </div>
-  <div class="links">
-    {% if entry.github %}
-      <a href="{{ entry.github }}" class="btn btn-sm z-depth-0" role="button">
-        <i class="fa-brands fa-github"></i> Code
-      </a>
-    {% endif %}
-    {% if entry.website %}
-      <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">
-        <i class="fa-solid fa-globe"></i> Website
-      </a>
-    {% endif %}
-    {% if entry.youtube %}
-      <a href="{{ entry.youtube }}" class="btn btn-sm z-depth-0" role="button">
-        <i class="fa-brands fa-youtube"></i> Video
-      </a>
-    {% endif %}
+<div class="rd-proj">
+  <h3>{{ entry.title }}</h3>
+  <p>{{ entry.description }}</p>
+  <div class="rd-meta">
+    {% if entry.github %}<a href="{{ entry.github }}">code</a>{% endif %}
+    {% if entry.website %}<a href="{{ entry.website }}">website</a>{% endif %}
+    {% if entry.youtube %}<a href="{{ entry.youtube }}">video</a>{% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
-        <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">
-          <i class="fa-solid fa-file-pdf"></i> PDF
-        </a>
+        <a href="{{ entry.pdf }}">pdf</a>
       {% else %}
-        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">
-          <i class="fa-solid fa-file-pdf"></i> PDF
-        </a>
+        <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}">pdf</a>
       {% endif %}
     {% endif %}
   </div>
