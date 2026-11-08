@@ -19,7 +19,6 @@ pagination:
 
 <div class="rd-blog">
   <h1>Blog</h1>
-  <p class="sub">Research notes and papers. New writing goes to <a href="https://sohanvenkatesh.substack.com">Substack</a>.</p>
 
   {% if page.pagination.enabled %}
     {% assign postlist = paginator.posts %}
@@ -45,7 +44,8 @@ pagination:
 
     <a class="rd-entry paper" href="{{ href }}">
       <span class="t">{{ post.title }}</span>
-      {% if post.byline %}<span class="by">{{ post.byline }}</span>{% endif %}
+      {% assign byline = post.byline | default: post.author %}
+      {% if byline %}<span class="by">{{ byline }}</span>{% endif %}
       <span class="d">{{ post.description }}{% if post.external_label %} <span class="rd-ext">{{ post.external_label }} ↗</span>{% endif %}</span>
     </a>
   {% endfor %}
